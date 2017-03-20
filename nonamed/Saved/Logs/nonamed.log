@@ -190,3 +190,614 @@ LogInit: Object subsystem initialized
 [2017.03.20-01.48.03:263][  0]LogLoad: (Engine Initialization) Total time: 19.85 seconds
 [2017.03.20-01.48.03:263][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
 [2017.03.20-01.48.03:263][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.20-01.48.03:604][  0]LogOcInput: OculusInput pre-init called
+[2017.03.20-01.48.03:626][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.20-01.48.03:630][  0]LogSlate: Took 0.002905 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.20-01.48.03:636][  0]LogSlate: Took 0.002884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.20-01.48.03:643][  0]LogSlate: Took 0.002830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.20-01.48.03:800][  0]LogSlate: Took 0.003044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.20-01.48.03:951][  1]LogRenderer: Reallocating scene render targets to support 1080x552 NumSamples 1 (Frame:2).
+[2017.03.20-01.48.03:951][  1]LogAssetRegistry: Asset discovery search completed in 9.3782 seconds
+[2017.03.20-01.48.03:951][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.03.20-01.48.03:951][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.03.20-01.48.04:604][  3]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.20-01.48.08:351][106]LogRenderer: Reallocating scene render targets to support 1208x564 NumSamples 1 (Frame:80).
+[2017.03.20-01.48.09:273][156]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.20-01.48.09:380][156]LogClass:Warning: Type mismatch in DeployedUnit of MyGameBase_C - Previous (ObjectProperty) Current(SetProperty) for package:  FObjectReader
+[2017.03.20-01.48.09:952][156]LogBlueprint:Warning: [PlayerBP] 'NearestOverlappingActor' variable not found. Base class was probably changed.
+[2017.03.20-01.48.09:952][156]LogBlueprint:Warning: [PlayerBP] 'NearestOverlap' variable not found. Base class was probably changed.
+[2017.03.20-01.48.09:952][156]LogBlueprint:Warning: [PlayerBP] 'NearestOverlap' variable not found. Base class was probably changed.
+[2017.03.20-01.48.09:952][156]LogBlueprint:Warning: [PlayerBP] 'NearestOverlap' variable not found. Base class was probably changed.
+[2017.03.20-01.48.09:952][156]LogBlueprint:Warning: [PlayerBP] 'NearestOverlappingActor' variable not found. Base class was probably changed.
+[2017.03.20-01.48.09:952][156]LogBlueprint:Warning: [PlayerBP] 'NearestOverlappingActor' variable not found. Base class was probably changed.
+[2017.03.20-01.48.10:470][156]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.20-01.48.10:769][156]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-01.48.10:850][156]Cmd: MAP LOAD FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.20-01.48.10:851][156]LightingResults: New page: Lighting Build
+[2017.03.20-01.48.10:852][156]LoadErrors: New page: Loading map: L_Battle_Stage.umap
+[2017.03.20-01.48.10:853][156]MapCheck: New page: Map Check
+[2017.03.20-01.48.10:853][156]LightingResults: New page: Lighting Build
+[2017.03.20-01.48.10:991][156]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.20-01.48.11:027][156]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.20-01.48.11:075][156]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.47ms to complete.
+[2017.03.20-01.48.11:075][156]LogFileHelpers: Loading map 'L_Battle_Stage' took 0.225
+[2017.03.20-01.48.12:199][224]LogClass:Warning: Enum '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:208][224]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.20-01.48.12:209][224]LogClass:Warning: Enum '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:213][224]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.20-01.48.12:296][224]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.03.20-01.48.13:649][224]LogSlate: Took 0.002538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.20-01.48.13:747][225]LogSlate: Took 0.005397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.20-01.57.05:436][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-01.57.05:497][558]LogSavePackage: Save=20.96ms
+[2017.03.20-01.57.05:497][558]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase33E5F70E4B27793C5C1C8D996BA9AA35.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-01.57.05:501][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-01.57.24:365][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-01.57.24:421][322]LogSavePackage: Save=19.06ms
+[2017.03.20-01.57.24:421][322]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase303B1C324E7B07A505B5409030F634B1.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-01.57.24:423][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-01.57.42:088][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-01.57.42:145][900]LogSavePackage: Save=19.81ms
+[2017.03.20-01.57.42:145][900]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBaseA4A6434B4983A1425472B992E394A2C4.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-01.57.42:148][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-01.58.55:749][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-01.58.55:805][389]LogSavePackage: Save=20.16ms
+[2017.03.20-01.58.55:805][389]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase1376A0174EDE35B222D6DEA95685D691.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-01.58.55:808][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.00.00:294][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.00.00:352][773]LogSavePackage: Save=21.00ms
+[2017.03.20-02.00.00:352][773]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase5F9C70A84D764E0D632F97B90990D061.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.00.00:355][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.00.06:334][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.00.06:390][286]LogSavePackage: Save=20.86ms
+[2017.03.20-02.00.06:390][286]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBaseBB5BFD2A4D8C28DF92F23C88B0BAF07B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.00.06:393][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.01.11:758][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.01.11:816][572]LogSavePackage: Save=21.56ms
+[2017.03.20-02.01.11:816][572]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase53AB624B455E147E5EB7D99C95E612BA.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.01.11:817][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.01.34:359][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.01.34:417][626]LogSavePackage: Save=21.29ms
+[2017.03.20-02.01.34:417][626]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase3972DCA44303479BCDE79FA5DC251737.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.01.34:420][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.02.02:512][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.02.02:571][159]LogSavePackage: Save=21.82ms
+[2017.03.20-02.02.02:571][159]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase39350F2A454F8AE85F272EA8556518FB.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.02.02:574][159]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.03.33:981][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.03.34:048][519]LogSavePackage: Save=22.70ms
+[2017.03.20-02.03.34:048][519]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase20451E8E46E38B8338E6F1806B898851.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.03.34:050][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.03.44:581][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelForTest" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.20-02.03.44:605][ 40]LogSavePackage: Save=7.77ms
+[2017.03.20-02.03.44:605][ 40]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/LevelForTest8A3E0E8640E76647BC4B1D857FFD8E38.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap'
+[2017.03.20-02.03.44:607][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap
+[2017.03.20-02.03.44:609][ 40]LogFileHelpers: Saving map 'LevelForTest' took 0.076
+[2017.03.20-02.03.47:310][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelForText" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForText.uasset" SILENT=true
+[2017.03.20-02.03.47:315][ 75]LogSavePackage: Save=3.52ms
+[2017.03.20-02.03.47:315][ 75]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/LevelForText8416654C4DA43215E26213BE04CD8B5F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForText.uasset'
+[2017.03.20-02.03.47:318][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForText.uasset
+[2017.03.20-02.03.47:320][ 75]Cmd: MAP LOAD FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.20-02.03.47:320][ 75]LightingResults: New page: Lighting Build
+[2017.03.20-02.03.47:322][ 75]LoadErrors: New page: Loading map: LevelForTest.umap
+[2017.03.20-02.03.47:323][ 75]MapCheck: New page: Map Check
+[2017.03.20-02.03.47:323][ 75]LightingResults: New page: Lighting Build
+[2017.03.20-02.03.47:442][ 75]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.20-02.03.47:443][ 75]LogAIModule: Creating AISystem for world LevelForTest
+[2017.03.20-02.03.47:485][ 75]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.20-02.03.47:529][ 75]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.406ms to complete.
+[2017.03.20-02.03.47:530][ 75]LogFileHelpers: Loading map 'LevelForTest' took 0.211
+[2017.03.20-02.03.55:190][495]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:37594).
+[2017.03.20-02.04.04:592][164]LogSlate: Took 0.003763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.03.20-02.05.04:117][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelForTest" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.20-02.05.04:179][743]LogSavePackage: Save=8.94ms
+[2017.03.20-02.05.04:179][743]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/LevelForTest5D9DE4B5463A5E7B533332BE8029BA52.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap'
+[2017.03.20-02.05.04:182][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap
+[2017.03.20-02.05.04:217][743]LogFileHelpers: Saving map 'LevelForTest' took 0.145
+[2017.03.20-02.05.04:219][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor_Blueprint2" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Actor_Blueprint2.uasset" SILENT=true
+[2017.03.20-02.05.04:232][743]LogSavePackage: Save=11.95ms
+[2017.03.20-02.05.04:232][743]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Actor_Blueprint24573488C464A6D0D09706984CE3B6B19.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Actor_Blueprint2.uasset'
+[2017.03.20-02.05.04:234][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Actor_Blueprint2.uasset
+[2017.03.20-02.05.04:431][760]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-02.05.04:463][760]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-02.05.04:463][760]LogPlayLevel: [PlayLevel] Compiling MyGameBase before play...
+[2017.03.20-02.05.04:551][760]LogPlayLevel: [PlayLevel] Compiling Actor_Blueprint2 before play...
+[2017.03.20-02.05.04:793][760]LogPlayLevel: PlayLevel: Blueprint regeneration took 330 ms (2 blueprints)
+[2017.03.20-02.05.04:796][760]PIE: New page: PIE session: LevelForTest (Mar 20, 2017, 8:05:04 PM)
+[2017.03.20-02.05.04:797][760]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelForTest
+[2017.03.20-02.05.04:798][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001051s)
+[2017.03.20-02.05.04:798][760]LogAIModule: Creating AISystem for world LevelForTest
+[2017.03.20-02.05.04:798][760]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2017.03.20-02.05.04:798][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelForTest.LevelForTest to /Game/UEDPIE_0_LevelForTest.LevelForTest (0.002105s)
+[2017.03.20-02.05.04:818][760]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-02.05.04:825][760]LogInit: FAudioDevice initialized.
+[2017.03.20-02.05.04:878][760]LogLoad: Game class is 'GameModeBase'
+[2017.03.20-02.05.04:882][760]LogWorld: Bringing World /Game/UEDPIE_0_LevelForTest.LevelForTest up for play (max tick rate 0) at 2017.03.20-11.05.04
+[2017.03.20-02.05.04:883][760]LogWorld: Bringing up level for play took: 0.001179
+[2017.03.20-02.05.04:920][760]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.03.20-02.05.04:922][760]LogBlueprintUserMessages: [Actor_Blueprint2] 0
+[2017.03.20-02.05.04:922][760]LogBlueprintUserMessages: [Actor_Blueprint2] 1
+[2017.03.20-02.05.04:922][760]LogBlueprintUserMessages: [Actor_Blueprint2] 3
+[2017.03.20-02.05.04:922][760]LogBlueprintUserMessages: [Actor_Blueprint2] 5
+[2017.03.20-02.05.04:922][760]LogBlueprintUserMessages: [Actor_Blueprint2] 4
+[2017.03.20-02.05.04:922][760]LogBlueprintUserMessages: [Actor_Blueprint2] 2
+[2017.03.20-02.05.04:922][760]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelForTest 0.67
+[2017.03.20-02.05.14:360][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelForTest" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.20-02.05.14:419][475]LogSavePackage: Save=8.20ms
+[2017.03.20-02.05.14:419][475]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/LevelForTestA00CE6DC4089B30BEA7BAF8F99694F31.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap'
+[2017.03.20-02.05.14:422][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/LevelForTest.umap
+[2017.03.20-02.05.14:457][475]LogFileHelpers: Saving map 'LevelForTest' took 0.141
+[2017.03.20-02.05.14:459][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor_Blueprint2" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Actor_Blueprint2.uasset" SILENT=true
+[2017.03.20-02.05.14:512][475]LogSavePackage: Save=11.74ms
+[2017.03.20-02.05.14:512][475]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Actor_Blueprint2C5D4ACDC489F9184C38CBA942249F7FE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Actor_Blueprint2.uasset'
+[2017.03.20-02.05.14:514][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Actor_Blueprint2.uasset
+[2017.03.20-02.05.15:639][518]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-02.05.15:685][518]Cmd: MAP LOAD FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.20-02.05.15:685][518]LightingResults: New page: Lighting Build
+[2017.03.20-02.05.15:687][518]LoadErrors: New page: Loading map: L_Battle_Stage.umap
+[2017.03.20-02.05.15:688][518]MapCheck: New page: Map Check
+[2017.03.20-02.05.15:688][518]LightingResults: New page: Lighting Build
+[2017.03.20-02.05.15:941][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.20-02.05.15:976][518]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.20-02.05.16:022][518]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.574ms to complete.
+[2017.03.20-02.05.16:022][518]LogFileHelpers: Loading map 'L_Battle_Stage' took 0.338
+[2017.03.20-02.06.09:186][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.06.09:247][821]LogSavePackage: Save=22.42ms
+[2017.03.20-02.06.09:248][821]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase6E74CF594DA54D03D7C694855BFD0359.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.06.09:250][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.06.29:203][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.06.29:262][460]LogSavePackage: Save=22.61ms
+[2017.03.20-02.06.29:262][460]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase01B867AB476701238810B9B3A078D864.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.06.29:264][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-02.06.35:500][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-02.06.35:558][  6]LogSavePackage: Save=21.71ms
+[2017.03.20-02.06.35:558][  6]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase50DA24444A986DEE2BFC51B440AFAD2A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-02.06.35:560][  6]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-04.05.11:199][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-04.05.11:264][173]LogSavePackage: Save=21.97ms
+[2017.03.20-04.05.11:264][173]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase74CB7CAF481B59CCC95F9BBFC4949850.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-04.05.11:266][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-04.06.31:039][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-04.06.31:098][861]LogSavePackage: Save=22.51ms
+[2017.03.20-04.06.31:098][861]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBaseEF1D6C0340B863F5918CD48D382B1560.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-04.06.31:099][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-04.06.47:548][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-04.06.47:607][447]LogSavePackage: Save=21.75ms
+[2017.03.20-04.06.47:607][447]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase3D7688DD47E82A218843E2864EF88A7C.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-04.06.47:607][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-04.07.44:318][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-04.07.44:378][571]LogSavePackage: Save=22.14ms
+[2017.03.20-04.07.44:378][571]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase60B342874D7E5A0555EC17B1C4E3E2F0.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-04.07.44:379][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-04.08.03:395][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.20-04.08.03:584][277]LogSavePackage: Save=145.76ms
+[2017.03.20-04.08.03:585][277]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitB2F996924D027583AD3F87B5F098107D.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.20-04.08.03:587][277]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.20-04.08.07:341][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.20-04.08.07:517][604]LogSavePackage: Save=140.59ms
+[2017.03.20-04.08.07:517][604]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit6822144441D30B80F9EFFCBF80DD0203.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.20-04.08.07:522][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.20-04.08.26:299][285]LogSlate: Took 0.020731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.03.20-04.08.46:083][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.08.46:167][990]LogSavePackage: Save=43.31ms
+[2017.03.20-04.08.46:168][990]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction6CEA85D549288E65F12D27BA65ADAB81.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.08.46:170][990]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.09.16:808][704]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.10.17:409][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.20-04.10.17:591][540]LogSavePackage: Save=145.91ms
+[2017.03.20-04.10.17:591][540]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitA9D5F7AE41945A43570EEAB2B830F395.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.20-04.10.17:594][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.20-04.11.07:644][660]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.11.55:063][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.020
+[2017.03.20-04.11.55:064][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StaticFunction] ([1] browsable assets)...
+[2017.03.20-04.11.55:064][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/StaticFunction]
+[2017.03.20-04.11.55:146][269]LogSavePackage: Save=43.71ms
+[2017.03.20-04.11.55:146][269]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction_Auto1CACA766840D0DBC373BF359A1BC520BE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto1.uasset'
+[2017.03.20-04.11.55:148][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto1.uasset
+[2017.03.20-04.11.55:148][269]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.03.20-04.12.38:196][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.12.38:277][603]LogSavePackage: Save=43.46ms
+[2017.03.20-04.12.38:277][603]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionB8C40A534889B4723CEB9E9619AD2352.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.12.38:280][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.13.50:646][774]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.14.33:259][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.14.33:347][ 65]LogSavePackage: Save=44.45ms
+[2017.03.20-04.14.33:347][ 65]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction6E890D094BB320DB59751AA7B1542898.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.14.33:350][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.14.50:452][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.14.50:533][676]LogSavePackage: Save=44.62ms
+[2017.03.20-04.14.50:533][676]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction3520AC814745DC64B9987A8734517DF3.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.14.50:535][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.15.39:858][977]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.15.53:699][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.15.53:782][150]LogSavePackage: Save=46.20ms
+[2017.03.20-04.15.53:782][150]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction0491D8C946EAB57E0C2EA391E75486F0.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.15.53:785][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.18.12:916][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.18.13:004][691]LogSavePackage: Save=48.25ms
+[2017.03.20-04.18.13:004][691]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionC95FA21A4B0EDFC909D8AE98C6FCB4FF.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.18.13:006][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.18.23:588][580]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.19.23:857][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.19.23:942][181]LogSavePackage: Save=48.95ms
+[2017.03.20-04.19.23:942][181]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction7AF57AA04924D48DAD037F98AE0CCA28.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.19.23:945][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.19.25:330][306]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.22.02:202][607]LogSavePackage: Save=163.82ms
+[2017.03.20-04.22.02:202][607]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_StageC5C1D2FB457B7460CFD53C9353FD8C9E.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.20-04.22.02:205][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap
+[2017.03.20-04.22.02:242][607]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.309
+[2017.03.20-04.22.02:245][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.22.02:338][607]LogSavePackage: Save=51.27ms
+[2017.03.20-04.22.02:338][607]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionE4E14FEF433E40855127D68A34F647A6.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.22.02:341][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.22.02:513][620]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.22.51:167][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.22.51:256][274]LogSavePackage: Save=52.34ms
+[2017.03.20-04.22.51:256][274]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction27F2A95B45F16AF5C151F5A415055F93.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.22.51:259][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.23.03:863][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.23.03:951][301]LogSavePackage: Save=52.13ms
+[2017.03.20-04.23.03:951][301]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionE2B8BE19407902D7BCC16FBAA9231C48.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.23.03:954][301]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.23.10:725][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.23.10:815][844]LogSavePackage: Save=53.25ms
+[2017.03.20-04.23.10:815][844]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction21D5B6B9427755BB778B54A3D82151E8.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.23.10:818][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.26.31:130][ 82]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.27.30:768][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.27.30:866][581]LogSavePackage: Save=54.61ms
+[2017.03.20-04.27.30:866][581]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionFEB2B2FD44B13E4DCB9C1A97DD08BD43.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.27.30:868][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.28.20:012][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.28.20:104][722]LogSavePackage: Save=54.82ms
+[2017.03.20-04.28.20:104][722]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction7CFD5B674CEF5E05058C99ABAEED8664.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.28.20:107][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.28.29:639][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.28.29:729][514]LogSavePackage: Save=54.12ms
+[2017.03.20-04.28.29:729][514]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionCCB93AC84CDDC22A61A25E8BB76C51AF.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.28.29:732][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.29.34:844][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.29.34:935][ 55]LogSavePackage: Save=54.79ms
+[2017.03.20-04.29.34:935][ 55]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction59702CDE41EE6CBFE91E99B245FFEDF0.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.29.34:938][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.29.58:297][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.29.58:386][250]LogSavePackage: Save=53.78ms
+[2017.03.20-04.29.58:386][250]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionFD020055476624DDE29C7D92EABBAF48.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.29.58:387][250]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.30.41:205][155]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.30.53:083][186]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.30.58:680][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.30.58:772][657]LogSavePackage: Save=54.78ms
+[2017.03.20-04.30.58:772][657]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction8A394B104EDAD51E30A731A520E89378.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.30.58:775][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.31.46:173][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.31.46:267][205]LogSavePackage: Save=57.35ms
+[2017.03.20-04.31.46:268][205]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction2277677F42EB599AB356828D47D46785.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.31.46:270][205]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.33.00:516][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.33.00:619][902]LogSavePackage: Save=58.57ms
+[2017.03.20-04.33.00:619][902]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionBC400C274924AFF41FCC1898DA15099F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.33.00:621][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.34.01:537][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.34.01:632][762]LogSavePackage: Save=58.14ms
+[2017.03.20-04.34.01:632][762]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionA2073A954721A757B625209DEBF3C312.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.34.01:635][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.34.06:669][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.34.06:763][167]LogSavePackage: Save=58.04ms
+[2017.03.20-04.34.06:763][167]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction22C3A83545F27FECD7EA228465371C7F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.34.06:765][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.34.53:447][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.34.53:543][458]LogSavePackage: Save=59.79ms
+[2017.03.20-04.34.53:543][458]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction42428013413E15FCF08CB188DF0DCEFD.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.34.53:546][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.36.09:491][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.36.09:587][598]LogSavePackage: Save=58.49ms
+[2017.03.20-04.36.09:587][598]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionA34D318941D59D3CCF29D5A9DA3C81DC.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.36.09:589][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.36.24:869][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.36.24:963][743]LogSavePackage: Save=58.01ms
+[2017.03.20-04.36.24:963][743]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction0624836C468A2A6C5B3F529F9615B3E3.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.36.24:965][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.36.32:398][292]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.36.43:861][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.36.43:955][ 98]LogSavePackage: Save=58.73ms
+[2017.03.20-04.36.43:955][ 98]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction725C350C4AAE6FC2187540B7F44877AE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.36.43:958][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.37.11:763][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.37.11:858][884]LogSavePackage: Save=59.39ms
+[2017.03.20-04.37.11:858][884]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction5B30B1F2428E5F1B696C0C932B7E6128.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.37.11:861][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.37.30:633][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.37.30:730][529]LogSavePackage: Save=59.36ms
+[2017.03.20-04.37.30:730][529]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction64C0B5F24FCBE58301CB67A7A4316A61.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.37.30:733][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.38.05:809][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.38.05:910][744]LogSavePackage: Save=60.55ms
+[2017.03.20-04.38.05:910][744]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction28452BE244648FBB461FB5818A84F14B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.38.05:913][744]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.38.15:275][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.38.15:373][537]LogSavePackage: Save=59.90ms
+[2017.03.20-04.38.15:373][537]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction754AB3024BD6A30DF47B2E8A1EB6FE68.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.38.15:376][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.38.27:326][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.38.27:421][593]LogSavePackage: Save=58.74ms
+[2017.03.20-04.38.27:421][593]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionFBD8C1EB4ABEF24C93D78B8508EBEDCC.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.38.27:422][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.38.39:497][434]LogEditorTransaction: Undo Move Node
+[2017.03.20-04.38.57:060][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.38.57:157][494]LogSavePackage: Save=60.45ms
+[2017.03.20-04.38.57:157][494]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction18E295EE4E297E54E5304F850A4F029A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.38.57:160][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.38.58:417][564]LogSavePackage: Save=160.93ms
+[2017.03.20-04.38.58:417][564]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage3DEAC7FF4434D7334F1267A6BC781A54.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.20-04.38.58:419][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap
+[2017.03.20-04.38.58:455][564]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.299
+[2017.03.20-04.39.04:935][ 48]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.39.04:981][ 48]LogBlueprint:Error: [Compiler StaticFunction] Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.05:306][ 48]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.05:306][ 48]LogBlueprint:Warning: [Compiler StaticFunction] Warning [0281.90] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 370 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-04.39.07:313][196]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.39.07:357][196]LogBlueprint:Error: [Compiler StaticFunction] Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.07:558][196]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.07:558][196]LogBlueprint:Warning: [Compiler StaticFunction] Warning [0284.15] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 245 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-04.39.17:115][969]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.39.17:159][969]LogBlueprint:Error: [Compiler StaticFunction] Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.17:360][969]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.17:360][969]LogBlueprint:Warning: [Compiler StaticFunction] Warning [0293.95] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 245 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-04.39.21:016][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.39.21:110][228]LogSavePackage: Save=57.46ms
+[2017.03.20-04.39.21:110][228]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionC021F2B84507F202E34DA8B6374A2E0D.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.39.21:112][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.39.25:666][542]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.39.25:713][542]LogBlueprint:Error: [Compiler StaticFunction] Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.25:912][542]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.25:912][542]LogBlueprint:Warning: [Compiler StaticFunction] Warning [0302.50] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 246 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-04.39.27:474][621]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.39.27:520][621]LogBlueprint:Error: [Compiler StaticFunction] Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.27:722][621]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property ret in scope GetPosByRange, but ArrayProperty /Game/StaticFunction.StaticFunction_C:GetPosByRange.ret already exists there.
+[2017.03.20-04.39.27:722][621]LogBlueprint:Warning: [Compiler StaticFunction] Warning [0304.31] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 247 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-04.40.19:423][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.40.19:518][310]LogSavePackage: Save=58.72ms
+[2017.03.20-04.40.19:518][310]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction803A67E44273732ED7D04FBCA7DA8C1B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.40.19:521][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.40.20:786][415]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.40.51:934][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.40.52:031][535]LogSavePackage: Save=61.03ms
+[2017.03.20-04.40.52:031][535]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction932B2DFB43A355436F7334A4C2783D67.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.40.52:034][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.41.04:879][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.41.04:976][513]LogSavePackage: Save=60.72ms
+[2017.03.20-04.41.04:976][513]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1CAAE55849BA870A329A86B8314E5D84.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.41.04:979][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.41.30:368][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.41.30:468][516]LogSavePackage: Save=62.84ms
+[2017.03.20-04.41.30:469][516]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction58FA1E9E49D24F97067B28B1951A21F3.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.41.30:471][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.42.08:858][689]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.43.06:873][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.43.06:977][810]LogSavePackage: Save=63.09ms
+[2017.03.20-04.43.06:977][810]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionB9AB61314A44EEF1E4EE7B8088E8AA99.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.43.06:980][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.43.19:913][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.43.20:010][801]LogSavePackage: Save=61.03ms
+[2017.03.20-04.43.20:010][801]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1E15E0694D2F7FF835F6B0804F74CD22.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.43.20:013][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.43.28:003][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.43.28:100][514]LogSavePackage: Save=61.20ms
+[2017.03.20-04.43.28:100][514]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction3734252F457559DF8DD23981399FDE46.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.43.28:103][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.45.58:159][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.45.58:264][413]LogSavePackage: Save=64.71ms
+[2017.03.20-04.45.58:264][413]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction16A4C27A47AD6242303B82B216E42E85.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.45.58:267][413]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.47.01:438][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.47.01:540][759]LogSavePackage: Save=66.41ms
+[2017.03.20-04.47.01:540][759]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionAEB87C7447231F30AF3F7FB56DEFFEB6.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.47.01:543][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.47.23:946][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.47.24:045][653]LogSavePackage: Save=63.84ms
+[2017.03.20-04.47.24:045][653]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction03EBCBAD4523F8C5B0077F80FECB77BD.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.47.24:048][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.47.56:215][176]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.48.58:294][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.018
+[2017.03.20-04.48.58:296][185]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StaticFunction] ([1] browsable assets)...
+[2017.03.20-04.48.58:296][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/StaticFunction]
+[2017.03.20-04.48.58:405][185]LogSavePackage: Save=65.30ms
+[2017.03.20-04.48.58:405][185]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction_Auto2DE960D0E49AE85935807FC959477B4FE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto2.uasset'
+[2017.03.20-04.48.58:406][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto2.uasset
+[2017.03.20-04.48.58:406][185]LogFileHelpers: Auto-saving content packages took 0.111
+[2017.03.20-04.49.16:508][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.49.16:608][912]LogSavePackage: Save=64.17ms
+[2017.03.20-04.49.16:608][912]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction0DC3471D4A77106995B0EB89B851D707.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.49.16:611][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.49.38:347][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.49.38:448][686]LogSavePackage: Save=65.12ms
+[2017.03.20-04.49.38:448][686]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1076FF354854D7DFF649319A9163050C.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.49.38:451][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.50.24:433][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.50.24:534][911]LogSavePackage: Save=65.96ms
+[2017.03.20-04.50.24:534][911]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction8A20902D4302C05B0743ACAE6962FD99.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.50.24:537][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.50.53:758][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.50.53:860][875]LogSavePackage: Save=66.83ms
+[2017.03.20-04.50.53:860][875]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction22DAF3AE4F9262278ABDAA93B3453485.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.50.53:863][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.51.39:406][361]LogBlueprint:Warning: [StaticFunction] 'relativeX' variable not found. Base class was probably changed.
+[2017.03.20-04.51.39:406][361]LogBlueprint:Warning: [StaticFunction] 'relativeX' variable not found. Base class was probably changed.
+[2017.03.20-04.51.39:418][361]LogBlueprint:Warning: [StaticFunction] 'relativeY' variable not found. Base class was probably changed.
+[2017.03.20-04.51.39:418][361]LogBlueprint:Warning: [StaticFunction] 'relativeY' variable not found. Base class was probably changed.
+[2017.03.20-04.51.39:419][361]LogBlueprint:Warning: [StaticFunction] 'relativeX' variable not found. Base class was probably changed.
+[2017.03.20-04.51.39:419][361]LogBlueprint:Warning: [StaticFunction] 'relativeY' variable not found. Base class was probably changed.
+[2017.03.20-04.51.49:045][183]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.52.02:937][ 38]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.52.12:320][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.52.12:426][578]LogSavePackage: Save=69.98ms
+[2017.03.20-04.52.12:426][578]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction88B12ABD4057E7102AF688A7B0669F07.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.52.12:428][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.53.38:525][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.53.38:635][866]LogSavePackage: Save=72.27ms
+[2017.03.20-04.53.38:635][866]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction53E69AD54880C0FDE2F830AC6AD34530.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.53.38:638][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.54.02:186][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.54.02:299][631]LogSavePackage: Save=71.46ms
+[2017.03.20-04.54.02:299][631]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction85A6CFB244DAFA4C6B4D919C6055AE93.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.54.02:301][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.54.06:800][991]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-04.54.06:853][991]LogBlueprint:Warning: [Compiler StaticFunction] Warning Could not find a variable named "relativeX" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Set relativeX
+[2017.03.20-04.54.06:853][991]LogBlueprint:Warning: [Compiler StaticFunction] Warning Could not find a variable named "relativeY" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Set relativeY
+[2017.03.20-04.54.06:853][991]LogBlueprint:Warning: [Compiler StaticFunction] Warning Could not find a variable named "relativeX" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Get relativeX
+[2017.03.20-04.54.06:853][991]LogBlueprint:Warning: [Compiler StaticFunction] Warning Could not find a variable named "relativeY" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Get relativeY
+[2017.03.20-04.54.06:856][991]LogBlueprint:Error: [Compiler StaticFunction] Error The property associated with  Relative Y  could not be found
+[2017.03.20-04.54.06:857][991]LogBlueprint:Error: [Compiler StaticFunction] Error The property associated with  Relative Y  could not be found
+[2017.03.20-04.54.06:857][991]LogBlueprint:Error: [Compiler StaticFunction] Error The property associated with  Relative X  could not be found
+[2017.03.20-04.54.06:857][991]LogBlueprint:Error: [Compiler StaticFunction] Error The property associated with  Relative X  could not be found
+[2017.03.20-04.54.07:215][991]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "relativeX" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Set relativeX
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "relativeY" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Set relativeY
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "relativeX" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Get relativeX
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "relativeY" in 'StaticFunction_C'.
+Make sure 'StaticFunction_C' has been compiled for  Get relativeY
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Error: Error The property associated with  Relative Y  could not be found
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Error: Error The property associated with  Relative Y  could not be found
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Error: Error The property associated with  Relative X  could not be found
+[2017.03.20-04.54.07:216][991]BlueprintEditorCompileResults:Error: Error The property associated with  Relative X  could not be found
+[2017.03.20-04.54.07:216][991]LogBlueprint:Warning: [Compiler StaticFunction] Warning [1183.81] Compile of StaticFunction failed. 4 Fatal Issue(s) 4 Warning(s) [in 416 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-04.55.08:944][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.55.09:049][ 47]LogSavePackage: Save=68.80ms
+[2017.03.20-04.55.09:049][ 47]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction04042A0D467EBD6540925D8EF9F1CBDB.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.55.09:052][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.55.18:350][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.55.18:453][629]LogSavePackage: Save=67.02ms
+[2017.03.20-04.55.18:453][629]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction6DBFED8F4F9C774909AC2B972704B57B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.55.18:455][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.55.58:381][202]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.56.21:784][782]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-04.56.30:191][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.56.30:293][511]LogSavePackage: Save=66.46ms
+[2017.03.20-04.56.30:293][511]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction0C1EEB734012EFFA54E4419B5E60D689.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.56.30:296][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.57.52:180][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.57.52:279][597]LogSavePackage: Save=62.62ms
+[2017.03.20-04.57.52:279][597]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1496B82A4EA6194871E80B89420B37C6.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.57.52:282][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.58.08:069][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.58.08:168][841]LogSavePackage: Save=62.43ms
+[2017.03.20-04.58.08:168][841]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction46728F6548CC0B91F4DF28AB1ED88EF4.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.58.08:170][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-04.59.31:928][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-04.59.32:036][208]LogSavePackage: Save=66.86ms
+[2017.03.20-04.59.32:036][208]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionE96CAB344DA1C1237337EFBA17A654E3.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-04.59.32:039][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.02.14:514][621]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-05.02.14:568][621]LogBlueprint:Error: [Compiler StaticFunction] Error Pin  Is Target in Range  named isTargetInRange doesn't match any parameters of function CheckTargetPosInRange
+[2017.03.20-05.02.14:908][621]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  
+[2017.03.20-05.02.14:908][621]BlueprintEditorCompileResults:Error: Error Pin  Is Target in Range  named isTargetInRange doesn't match any parameters of function CheckTargetPosInRange
+[2017.03.20-05.02.14:908][621]LogBlueprint:Warning: [Compiler StaticFunction] Warning [1671.50] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 394 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-05.02.27:170][371]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-05.02.27:224][371]LogBlueprint:Error: [Compiler StaticFunction] Error Pin  Is Target in Range  named isTargetInRange doesn't match any parameters of function CheckTargetPosInRange
+[2017.03.20-05.02.27:430][371]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  
+[2017.03.20-05.02.27:430][371]BlueprintEditorCompileResults:Error: Error Pin  Is Target in Range  named isTargetInRange doesn't match any parameters of function CheckTargetPosInRange
+[2017.03.20-05.02.27:430][371]LogBlueprint:Warning: [Compiler StaticFunction] Warning [1684.02] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 260 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-05.02.32:743][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.02.32:844][756]LogSavePackage: Save=64.21ms
+[2017.03.20-05.02.32:844][756]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction5B96B71F4A82C0C4F3A688BFE11A6A78.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.02.32:846][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.02.33:673][831]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-05.02.33:727][831]LogBlueprint:Error: [Compiler StaticFunction] Error Pin  Is Target in Range  named isTargetInRange doesn't match any parameters of function CheckTargetPosInRange
+[2017.03.20-05.02.33:932][831]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  
+[2017.03.20-05.02.33:932][831]BlueprintEditorCompileResults:Error: Error Pin  Is Target in Range  named isTargetInRange doesn't match any parameters of function CheckTargetPosInRange
+[2017.03.20-05.02.33:932][831]LogBlueprint:Warning: [Compiler StaticFunction] Warning [1690.52] Compile of StaticFunction failed. 1 Fatal Issue(s) 0 Warning(s) [in 259 ms] (/Game/StaticFunction.StaticFunction)
+[2017.03.20-05.03.26:054][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.03.26:154][702]LogSavePackage: Save=64.25ms
+[2017.03.20-05.03.26:154][702]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction72C1A7B44C815711F430F8BE53E7CD3C.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.03.26:157][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.03.44:594][663]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-05.03.44:943][663]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  
+[2017.03.20-05.04.13:825][193]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-05.04.13:990][193]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  
+[2017.03.20-05.04.50:240][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.04.50:353][650]LogSavePackage: Save=72.09ms
+[2017.03.20-05.04.50:353][650]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction10E0A6D54FF1E7E79CBC5A9B5FF7124D.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.04.50:357][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.05.15:446][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.05.15:552][503]LogSavePackage: Save=69.30ms
+[2017.03.20-05.05.15:552][503]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1C7A91BC4DB3CE90FBDECCB20AADA762.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.05.15:555][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.05.40:825][810]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-05.06.05:523][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.06.05:631][464]LogSavePackage: Save=70.11ms
+[2017.03.20-05.06.05:631][464]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction412AB185427C145912601598086E2928.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.06.05:634][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.06.16:455][436]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2017.03.20-05.06.30:494][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.06.30:599][212]LogSavePackage: Save=69.59ms
+[2017.03.20-05.06.30:599][212]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction03BE8A66453660B42CF4AF8CB1FAB26B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.06.30:602][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.09.35:492][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.017
+[2017.03.20-05.09.35:494][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StaticFunction] ([1] browsable assets)...
+[2017.03.20-05.09.35:494][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/StaticFunction]
+[2017.03.20-05.09.35:603][125]LogSavePackage: Save=73.12ms
+[2017.03.20-05.09.35:603][125]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction_Auto34DCA4C3B4BF5DAB3E21742A5A222A0CE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto3.uasset'
+[2017.03.20-05.09.35:605][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto3.uasset
+[2017.03.20-05.09.35:605][125]LogFileHelpers: Auto-saving content packages took 0.112
+[2017.03.20-05.10.43:842][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.10.43:955][409]LogSavePackage: Save=70.63ms
+[2017.03.20-05.10.43:955][409]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionEFE852494CCC70F2B18CE390A0E9F697.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.10.43:958][409]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.10.53:927][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.10.54:035][136]LogSavePackage: Save=71.56ms
+[2017.03.20-05.10.54:035][136]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction98C85E9E41D50BF0EE6D72B8BB40B385.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.10.54:038][136]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.11.47:817][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.11.47:925][361]LogSavePackage: Save=71.78ms
+[2017.03.20-05.11.47:925][361]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction465B398349F8BF278F9FAF92617E96B0.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.11.47:928][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.11.57:695][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.11.57:805][ 90]LogSavePackage: Save=73.60ms
+[2017.03.20-05.11.57:805][ 90]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionBB49077B46FBEDFC74C713ADE003FB45.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.11.57:808][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.13.14:166][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.13.14:274][551]LogSavePackage: Save=72.43ms
+[2017.03.20-05.13.14:274][551]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction47AD164B42B24E957FBEEBA425088C82.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.13.14:277][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.13.35:643][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.13.35:753][823]LogSavePackage: Save=73.06ms
+[2017.03.20-05.13.35:753][823]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction6C8B70CD4C3DF17577D83A8AB0F3D79F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.13.35:756][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.15.10:793][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.15.10:902][315]LogSavePackage: Save=72.91ms
+[2017.03.20-05.15.10:902][315]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionE53F333649E4D5F86A51B4A802D38160.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.15.10:905][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.15.55:717][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.15.55:833][916]LogSavePackage: Save=74.58ms
+[2017.03.20-05.15.55:833][916]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction28C1531945BE04FA590EE7BF3CF19677.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.15.55:836][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.17.39:009][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-05.17.39:122][896]LogSavePackage: Save=76.09ms
+[2017.03.20-05.17.39:122][896]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction61162BEE4EF15F7C26160E8B0AE4E126.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-05.17.39:124][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-05.17.39:651][933]BlueprintLog: New page: Compile StaticFunction
