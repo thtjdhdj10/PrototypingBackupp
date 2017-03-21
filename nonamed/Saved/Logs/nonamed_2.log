@@ -594,3 +594,623 @@ Script call stack:
 [2017.03.20-08.56.42:784][396]LogSavePackage: Save=45.60ms
 [2017.03.20-08.56.42:785][396]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage_BuiltDataE6418F564400AF0196AADCB39519E08E.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage_BuiltData.uasset'
 [2017.03.20-08.56.42:786][396]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage_BuiltData.uasset
+[2017.03.20-09.00.41:506][407]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-09.00.41:532][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.00.41:533][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-09.00.41:534][407]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 3:00:41 AM)
+[2017.03.20-09.00.41:534][407]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-09.00.41:540][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006408s)
+[2017.03.20-09.00.41:541][407]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-09.00.41:542][407]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2017.03.20-09.00.41:542][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.008072s)
+[2017.03.20-09.00.41:569][407]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-09.00.41:578][407]LogInit: FAudioDevice initialized.
+[2017.03.20-09.00.41:610][407]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-09.00.41:613][407]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-18.00.41
+[2017.03.20-09.00.41:614][407]LogWorld: Bringing up level for play took: 0.002828
+[2017.03.20-09.00.41:617][407]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage -0.635
+[2017.03.20-09.00.41:618][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.00.41:993][436]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-09.00.41:993][436]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-09.00.41:993][436]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-09.00.43:176][530]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.00.46:172][783]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.00.46:175][783]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.00.51:674][252]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.00.54:681][497]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.00.54:685][497]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.00.57:406][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.00.57:573][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.01.09:501][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-09.01.09:570][541]LogSavePackage: Save=29.00ms
+[2017.03.20-09.01.09:570][541]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBaseC7D60ECA41CCB6AF7587F49094EA512A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-09.01.09:573][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-09.01.10:406][595]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-09.01.10:432][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.01.10:432][595]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-09.01.10:433][595]LogPlayLevel: [PlayLevel] Compiling MyGameBase before play...
+[2017.03.20-09.01.10:561][595]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2017.03.20-09.01.10:561][595]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 3:01:10 AM)
+[2017.03.20-09.01.10:561][595]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-09.01.10:568][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005822s)
+[2017.03.20-09.01.10:569][595]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-09.01.10:569][595]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2017.03.20-09.01.10:569][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.007239s)
+[2017.03.20-09.01.10:591][595]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-09.01.10:599][595]LogInit: FAudioDevice initialized.
+[2017.03.20-09.01.10:632][595]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-09.01.10:636][595]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-18.01.10
+[2017.03.20-09.01.10:636][595]LogWorld: Bringing up level for play took: 0.002794
+[2017.03.20-09.01.10:639][595]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage 0.387
+[2017.03.20-09.01.10:639][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.01.10:903][610]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-09.01.10:903][610]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-09.01.10:903][610]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-09.01.12:450][732]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.14:949][945]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.01.14:953][945]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.01.18:965][292]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.01.18:968][292]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.21:476][507]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.25:489][849]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.27:999][ 54]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.28:002][ 54]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.32:124][325]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.01.32:127][325]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.01.34:638][438]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.01.38:543][643]LogEditorViewport: Clicking Background
+[2017.03.20-09.01.39:520][710]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-09.01.41:275][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.01.41:477][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.02.47:816][809]LogSavePackage: Save=157.01ms
+[2017.03.20-09.02.47:816][809]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage1C9B2C7145D27F5144C9E08BF36382FF.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.20-09.02.47:819][809]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap
+[2017.03.20-09.02.47:855][809]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.302
+[2017.03.20-09.17.06:193][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.20-09.17.06:262][695]LogSavePackage: Save=29.02ms
+[2017.03.20-09.17.06:262][695]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase51FE82E7447288A2821C9EA0E791D461.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.20-09.17.06:263][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.20-09.18.04:044][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.18.04:183][200]LogSavePackage: Save=100.25ms
+[2017.03.20-09.18.04:183][200]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction4EAE9AFC44574C6F23C24EB5B8AB1567.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.18.04:186][200]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.18.14:519][944]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.03.20-09.18.36:755][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.18.36:887][559]LogSavePackage: Save=97.59ms
+[2017.03.20-09.18.36:887][559]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction462557654A36748D75063DB6E81DC7D1.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.18.36:890][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.18.45:466][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.18.45:600][173]LogSavePackage: Save=100.09ms
+[2017.03.20-09.18.45:600][173]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction22A2CD8641E17AFB4D7C5CBA82ABEB3F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.18.45:603][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.18.58:480][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.18.58:613][140]LogSavePackage: Save=99.15ms
+[2017.03.20-09.18.58:613][140]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction27BADBC84442C5F2BC3A7E813F8FC8C3.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.18.58:616][140]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.20.48:563][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.20.48:700][957]LogSavePackage: Save=99.72ms
+[2017.03.20-09.20.48:700][957]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionA6A1C66F41165259C9BAA69057A8FBD7.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.20.48:702][957]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.21.44:084][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.21.44:220][722]LogSavePackage: Save=100.01ms
+[2017.03.20-09.21.44:220][722]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1441B5B24B2151E1FE05448414805F91.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.21.44:222][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.22.40:863][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.22.40:999][815]LogSavePackage: Save=101.63ms
+[2017.03.20-09.22.40:999][815]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction57582C684AB70536CA588DB025D3FDBF.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.22.41:002][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.23.13:868][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.23.14:012][875]LogSavePackage: Save=104.86ms
+[2017.03.20-09.23.14:013][875]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction93D7646E4AFEED0DA44A3CBB14B86FB8.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.23.14:016][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.23.25:356][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.23.25:493][566]LogSavePackage: Save=101.23ms
+[2017.03.20-09.23.25:493][566]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction38BD0A6248B1A6B7C6642F91D164CAE2.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.23.25:496][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.23.42:359][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.23.42:493][713]LogSavePackage: Save=100.30ms
+[2017.03.20-09.23.42:493][713]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction3DEE387644BF7979D6C7D182CA8EB195.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.23.42:496][713]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.23.48:515][105]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-09.23.48:886][105]LogScript:Warning: Accessed None trying to read property opponentLocation
+	Enemy_Blueprint_C /Engine/Transient.World_6:PersistentLevel.Enemy_Blueprint_C_0
+	Function /Game/Enemy_Blueprint.Enemy_Blueprint_C:UserConstructionScript:001E
+[2017.03.20-09.23.52:326][289]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-09.23.52:352][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.23.52:352][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-09.23.52:352][289]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 3:23:52 AM)
+[2017.03.20-09.23.52:352][289]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-09.23.52:359][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006946s)
+[2017.03.20-09.23.52:360][289]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-09.23.52:361][289]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2017.03.20-09.23.52:361][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.008541s)
+[2017.03.20-09.23.52:386][289]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-09.23.52:394][289]LogInit: FAudioDevice initialized.
+[2017.03.20-09.23.52:425][289]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-09.23.52:429][289]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-18.23.52
+[2017.03.20-09.23.52:429][289]LogWorld: Bringing up level for play took: 0.002645
+[2017.03.20-09.23.52:432][289]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage 0.18
+[2017.03.20-09.23.52:432][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.23.52:810][316]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-09.23.52:810][316]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-09.23.52:810][316]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-09.23.53:998][405]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.23.53:998][405]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array minDistancePosArr of length 0!
+[2017.03.20-09.23.54:002][405]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.23.54:002][405]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array minDistancePosArr of length 0!
+[2017.03.20-09.23.56:068][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.23.56:226][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.24.54:690][654]LogSavePackage: Save=158.03ms
+[2017.03.20-09.24.54:690][654]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage_Auto1634F8D514E4C81195EE5C493E01A6B0C.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/L_Battle_Stage_Auto1.umap'
+[2017.03.20-09.24.54:692][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/L_Battle_Stage_Auto1.umap
+[2017.03.20-09.24.54:694][654]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.221
+[2017.03.20-09.24.54:694][654]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.221
+[2017.03.20-09.25.44:903][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.25.45:039][ 42]LogSavePackage: Save=100.98ms
+[2017.03.20-09.25.45:039][ 42]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction1687107D4EEC1DCD7A8B6A8E4B5A1603.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.25.45:042][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-09.25.45:636][ 72]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-09.25.45:662][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.25.45:663][ 72]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-09.25.45:663][ 72]LogPlayLevel: [PlayLevel] Compiling StaticFunction before play...
+[2017.03.20-09.25.45:879][ 72]LogPlayLevel: PlayLevel: Blueprint regeneration took 216 ms (1 blueprints)
+[2017.03.20-09.25.45:879][ 72]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 3:25:45 AM)
+[2017.03.20-09.25.45:879][ 72]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-09.25.45:885][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005582s)
+[2017.03.20-09.25.45:886][ 72]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-09.25.45:887][ 72]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2017.03.20-09.25.45:887][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.007301s)
+[2017.03.20-09.25.45:911][ 72]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-09.25.45:921][ 72]LogInit: FAudioDevice initialized.
+[2017.03.20-09.25.45:951][ 72]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-09.25.45:955][ 72]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-18.25.45
+[2017.03.20-09.25.45:955][ 72]LogWorld: Bringing up level for play took: 0.002914
+[2017.03.20-09.25.45:958][ 72]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage -0.294
+[2017.03.20-09.25.45:958][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.25.46:189][ 77]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-09.25.46:189][ 77]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-09.25.46:189][ 77]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-09.25.47:432][168]LogBlueprintUserMessages: [None] RangedPosCount: 7
+[2017.03.20-09.25.47:435][168]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.25.49:927][342]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.25.53:944][628]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.25.53:947][628]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.25.56:446][802]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.00:472][ 87]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.02:976][261]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.26.02:979][261]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.06:988][543]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.09:491][713]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.26.09:494][713]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.13:500][990]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.26.13:503][990]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.16:006][167]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.26.18:473][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.26.18:756][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.27.58:106][734]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-09.27.58:134][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.27.58:135][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-09.27.58:135][734]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 3:27:58 AM)
+[2017.03.20-09.27.58:135][734]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-09.27.58:142][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006325s)
+[2017.03.20-09.27.58:142][734]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-09.27.58:143][734]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2017.03.20-09.27.58:143][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.007771s)
+[2017.03.20-09.27.58:169][734]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-09.27.58:178][734]LogInit: FAudioDevice initialized.
+[2017.03.20-09.27.58:213][734]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-09.27.58:216][734]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-18.27.58
+[2017.03.20-09.27.58:216][734]LogWorld: Bringing up level for play took: 0.002754
+[2017.03.20-09.27.58:219][734]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage -0.033
+[2017.03.20-09.27.58:220][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.27.58:592][759]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-09.27.58:592][759]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-09.27.58:592][759]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-09.28.00:473][880]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.28.00:476][880]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-09.28.02:966][ 49]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.06:981][313]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.06:985][313]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.09:491][482]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.16:148][950]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.18:661][123]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.28.18:665][123]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.22:683][397]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.22:687][397]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.25:190][562]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-09.28.29:204][836]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.29:208][836]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-09.28.38:166][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.28.38:333][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-09.30.34:647][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-09.30.34:791][946]LogSavePackage: Save=101.32ms
+[2017.03.20-09.30.34:791][946]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction4AB37FEA4F8DD299DFF24C837438C1A1.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-09.30.34:792][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.02.57:235][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.02.57:385][646]LogSavePackage: Save=107.53ms
+[2017.03.20-10.02.57:386][646]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionB876BD6B49C6AEFE2D527BB30199DC3B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.02.57:387][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.02.57:822][656]LogSavePackage: Save=158.62ms
+[2017.03.20-10.02.57:822][656]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_StageC69823104C474129A342629C60CC9279.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.20-10.02.57:827][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap
+[2017.03.20-10.02.57:868][656]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.310
+[2017.03.20-10.07.00:580][373]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-10.07.00:608][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.07.00:608][373]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-10.07.00:608][373]LogPlayLevel: [PlayLevel] Compiling StaticFunction before play...
+[2017.03.20-10.07.00:831][373]LogPlayLevel: PlayLevel: Blueprint regeneration took 222 ms (1 blueprints)
+[2017.03.20-10.07.00:831][373]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 4:07:00 AM)
+[2017.03.20-10.07.00:831][373]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-10.07.00:837][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005804s)
+[2017.03.20-10.07.00:838][373]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-10.07.00:839][373]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2017.03.20-10.07.00:839][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.007639s)
+[2017.03.20-10.07.00:862][373]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-10.07.00:871][373]LogInit: FAudioDevice initialized.
+[2017.03.20-10.07.00:901][373]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-10.07.00:905][373]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-19.07.00
+[2017.03.20-10.07.00:905][373]LogWorld: Bringing up level for play took: 0.002876
+[2017.03.20-10.07.00:908][373]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage 0.656
+[2017.03.20-10.07.00:909][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.07.01:206][378]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-10.07.01:206][378]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-10.07.01:206][378]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-10.07.02:630][477]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.07.02:633][477]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-10.07.05:121][659]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.07.09:129][955]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.07.09:133][955]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.07.11:637][135]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.07.15:643][408]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.07.15:646][408]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.07.17:713][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.07.18:054][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.09.18:259][309]LogEditorTransaction: Undo Delete current selection
+[2017.03.20-10.11.15:108][175]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-10.11.15:138][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.11.15:138][175]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-10.11.15:138][175]LogPlayLevel: [PlayLevel] Compiling StaticFunction before play...
+[2017.03.20-10.11.15:359][175]LogPlayLevel: PlayLevel: Blueprint regeneration took 220 ms (1 blueprints)
+[2017.03.20-10.11.15:360][175]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 4:11:15 AM)
+[2017.03.20-10.11.15:360][175]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-10.11.15:366][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006575s)
+[2017.03.20-10.11.15:367][175]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-10.11.15:368][175]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.03.20-10.11.15:368][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.007935s)
+[2017.03.20-10.11.15:392][175]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-10.11.15:400][175]LogInit: FAudioDevice initialized.
+[2017.03.20-10.11.15:433][175]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-10.11.15:436][175]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-19.11.15
+[2017.03.20-10.11.15:437][175]LogWorld: Bringing up level for play took: 0.002692
+[2017.03.20-10.11.15:439][175]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage 1.187
+[2017.03.20-10.11.15:440][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.11.15:653][181]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-10.11.15:653][181]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-10.11.15:653][181]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-10.11.17:247][302]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.11.17:251][302]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-10.11.19:736][496]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.23:750][815]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.26:248][ 11]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.26:252][ 11]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.30:267][333]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.32:775][535]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.11.32:778][535]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.36:795][855]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.11.36:799][855]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-10.11.39:306][ 57]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.43:311][383]LogBlueprintUserMessages: [None] RangedPosCount: 11
+[2017.03.20-10.11.43:314][383]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.11.45:814][587]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.49:827][914]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.11.52:328][116]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.11.52:331][116]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.11.55:988][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.11.56:215][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.12.39:753][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.12.39:894][510]LogSavePackage: Save=101.53ms
+[2017.03.20-10.12.39:894][510]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionBD78AC8041DEFFF22A338CB4EA80DC92.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.12.39:898][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.17.01:399][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.17.01:542][876]LogSavePackage: Save=105.48ms
+[2017.03.20-10.17.01:542][876]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionC659FB824F9594A77D0686A535E71A55.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.17.01:546][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.17.05:223][103]BlueprintLog: New page: Compile StaticFunction
+[2017.03.20-10.17.07:923][201]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-10.17.07:949][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.07:950][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-10.17.07:950][201]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 4:17:07 AM)
+[2017.03.20-10.17.07:950][201]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-10.17.07:956][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006216s)
+[2017.03.20-10.17.07:957][201]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-10.17.07:957][201]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2017.03.20-10.17.07:958][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.007707s)
+[2017.03.20-10.17.07:982][201]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-10.17.07:990][201]LogInit: FAudioDevice initialized.
+[2017.03.20-10.17.08:027][201]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-10.17.08:031][201]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-19.17.08
+[2017.03.20-10.17.08:031][201]LogWorld: Bringing up level for play took: 0.003187
+[2017.03.20-10.17.08:034][201]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage -0.218
+[2017.03.20-10.17.08:034][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.08:420][228]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-10.17.08:420][228]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-10.17.08:420][228]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-10.17.09:501][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.09:918][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.28:907][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.17.29:045][231]LogSavePackage: Save=103.43ms
+[2017.03.20-10.17.29:045][231]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionE927B33F4980F1E2FA9B748C7898AC49.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.17.29:048][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.17.29:411][252]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-10.17.29:439][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.29:439][252]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-10.17.29:439][252]LogPlayLevel: [PlayLevel] Compiling StaticFunction before play...
+[2017.03.20-10.17.29:652][252]LogPlayLevel: PlayLevel: Blueprint regeneration took 212 ms (1 blueprints)
+[2017.03.20-10.17.29:653][252]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 4:17:29 AM)
+[2017.03.20-10.17.29:653][252]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-10.17.29:658][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004893s)
+[2017.03.20-10.17.29:659][252]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-10.17.29:659][252]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2017.03.20-10.17.29:659][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.006462s)
+[2017.03.20-10.17.29:683][252]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-10.17.29:690][252]LogInit: FAudioDevice initialized.
+[2017.03.20-10.17.29:724][252]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-10.17.29:727][252]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-19.17.29
+[2017.03.20-10.17.29:728][252]LogWorld: Bringing up level for play took: 0.002661
+[2017.03.20-10.17.29:731][252]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage -0.521
+[2017.03.20-10.17.29:732][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.30:178][257]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-10.17.30:179][257]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-10.17.30:179][257]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-10.17.31:649][357]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.17.31:649][357]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array minDistancePosArr of length 0!
+[2017.03.20-10.17.31:652][357]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.17.31:652][357]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array minDistancePosArr of length 0!
+[2017.03.20-10.17.33:945][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.17.34:350][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.24:090][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.18.24:234][934]LogSavePackage: Save=104.02ms
+[2017.03.20-10.18.24:234][934]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionBE917FDA477753A02063999AC2FEF5EE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.18.24:237][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.18.24:657][958]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-10.18.24:682][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.24:683][958]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-10.18.24:683][958]LogPlayLevel: [PlayLevel] Compiling StaticFunction before play...
+[2017.03.20-10.18.24:898][958]LogPlayLevel: PlayLevel: Blueprint regeneration took 215 ms (1 blueprints)
+[2017.03.20-10.18.24:899][958]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 4:18:24 AM)
+[2017.03.20-10.18.24:899][958]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-10.18.24:904][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005082s)
+[2017.03.20-10.18.24:905][958]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-10.18.24:905][958]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2017.03.20-10.18.24:905][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.006576s)
+[2017.03.20-10.18.24:929][958]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-10.18.24:937][958]LogInit: FAudioDevice initialized.
+[2017.03.20-10.18.24:969][958]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-10.18.24:972][958]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-19.18.24
+[2017.03.20-10.18.24:973][958]LogWorld: Bringing up level for play took: 0.002799
+[2017.03.20-10.18.24:975][958]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage 0.723
+[2017.03.20-10.18.24:975][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.25:261][965]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-10.18.25:261][965]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-10.18.25:261][965]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-10.18.27:848][150]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.18.27:848][150]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array minDistancePosArr of length 0!
+[2017.03.20-10.18.27:851][150]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.18.27:851][150]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array minDistancePosArr of length 0!
+[2017.03.20-10.18.29:108][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.29:575][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.33:907][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.18.34:044][460]LogSavePackage: Save=102.84ms
+[2017.03.20-10.18.34:044][460]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction7510A22F4C8BE823532752B68E4C1295.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.18.34:047][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.18.34:727][499]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-10.18.34:753][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.34:753][499]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.20-10.18.34:753][499]LogPlayLevel: [PlayLevel] Compiling StaticFunction before play...
+[2017.03.20-10.18.34:967][499]LogPlayLevel: PlayLevel: Blueprint regeneration took 212 ms (1 blueprints)
+[2017.03.20-10.18.34:967][499]PIE: New page: PIE session: L_Battle_Stage (Mar 21, 2017, 4:18:34 AM)
+[2017.03.20-10.18.34:967][499]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_L_Battle_Stage
+[2017.03.20-10.18.34:972][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005655s)
+[2017.03.20-10.18.34:973][499]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.20-10.18.34:973][499]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2017.03.20-10.18.34:973][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L_Battle_Stage.L_Battle_Stage to /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage (0.006831s)
+[2017.03.20-10.18.34:997][499]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-10.18.35:005][499]LogInit: FAudioDevice initialized.
+[2017.03.20-10.18.35:038][499]LogLoad: Game class is 'MyGameMode_C'
+[2017.03.20-10.18.35:041][499]LogWorld: Bringing World /Game/UEDPIE_0_L_Battle_Stage.L_Battle_Stage up for play (max tick rate 0) at 2017.03.20-19.18.35
+[2017.03.20-10.18.35:042][499]LogWorld: Bringing up level for play took: 0.002846
+[2017.03.20-10.18.35:045][499]PIE: Info Play in editor start time for /Game/UEDPIE_0_L_Battle_Stage 0.792
+[2017.03.20-10.18.35:045][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.18.35:312][505]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy Start
+[2017.03.20-10.18.35:312][505]LogBlueprintUserMessages: [Enemy_Blueprint] Get Deployable Unit Fail.
+[2017.03.20-10.18.35:312][505]LogBlueprintUserMessages: [Enemy_Blueprint] Enemy Deploy End
+[2017.03.20-10.18.37:534][657]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.18.37:537][657]LogBlueprintUserMessages: [None] RangedPosCount: 8
+[2017.03.20-10.18.40:023][832]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.44:045][113]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.44:049][113]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.46:547][278]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.50:570][565]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.50:573][565]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.53:081][738]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.57:093][ 30]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.57:096][ 30]LogBlueprintUserMessages: [None] RangedPosCount: 12
+[2017.03.20-10.18.59:606][205]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.03:616][503]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.06:120][690]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.06:123][690]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.10:142][989]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.10:145][989]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.12:654][172]LogBlueprintUserMessages: [None] RangedPosCount: 10
+[2017.03.20-10.19.13:702][243]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.19.14:124][243]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.20-10.19.37:323][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.19.37:460][693]LogSavePackage: Save=102.92ms
+[2017.03.20-10.19.37:460][693]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionA357AA554F7085EDA34CCB87E316AEA5.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.19.37:463][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.20.13:948][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.20.14:086][317]LogSavePackage: Save=104.25ms
+[2017.03.20-10.20.14:086][317]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionD225C29C4A1B3DEB8D3CF7AC754FF0C8.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.20.14:087][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.20.37:456][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.20.37:595][997]LogSavePackage: Save=103.30ms
+[2017.03.20-10.20.37:595][997]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction56A910274475D557760172940E1237E9.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.20.37:597][997]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.25.59:516][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.25.59:658][197]LogSavePackage: Save=102.47ms
+[2017.03.20-10.25.59:659][197]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionA230C5384DE90A0DFB40E186EDAE77E3.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.25.59:660][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.26.21:887][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-10.26.22:023][619]LogSavePackage: Save=101.15ms
+[2017.03.20-10.26.22:023][619]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionBC7191FC4350AF3664A675886EEE3FAE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-10.26.22:025][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-10.38.16:655][832]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.023
+[2017.03.20-10.38.16:657][832]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Unit/Unit] ([1] browsable assets)...
+[2017.03.20-10.38.16:658][832]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Unit/Unit]
+[2017.03.20-10.38.16:875][832]LogSavePackage: Save=179.08ms
+[2017.03.20-10.38.16:875][832]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit_Auto2381755FF4354B48D289AC7B67A7D7CC7.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/Blueprint/Unit/Unit_Auto2.uasset'
+[2017.03.20-10.38.16:877][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/Blueprint/Unit/Unit_Auto2.uasset
+[2017.03.20-10.38.16:877][832]LogFileHelpers: Auto-saving content packages took 0.221
+[2017.03.20-12.34.24:035][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.34.24:180][453]LogSavePackage: Save=103.98ms
+[2017.03.20-12.34.24:180][453]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionD92B81A44568A9DEE6DF829BDEE62998.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.34.24:181][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.34.24:434][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.20-12.34.24:648][469]LogSavePackage: Save=174.70ms
+[2017.03.20-12.34.24:648][469]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit1CB02E6640A13C9E59388BB6D1AE432A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.20-12.34.24:651][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.20-12.36.11:258][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.36.11:392][966]LogSavePackage: Save=99.64ms
+[2017.03.20-12.36.11:392][966]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction84231ED84D8AED84EA8B70AF974C5C52.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.36.11:394][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.37.24:631][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.021
+[2017.03.20-12.37.24:633][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StaticFunction] ([1] browsable assets)...
+[2017.03.20-12.37.24:633][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/StaticFunction]
+[2017.03.20-12.37.24:768][507]LogSavePackage: Save=100.77ms
+[2017.03.20-12.37.24:768][507]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction_Auto39973CB164CC93714AD4230B1B247525B.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto3.uasset'
+[2017.03.20-12.37.24:769][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto3.uasset
+[2017.03.20-12.37.24:770][507]LogFileHelpers: Auto-saving content packages took 0.138
+[2017.03.20-12.38.18:039][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.38.18:174][493]LogSavePackage: Save=100.50ms
+[2017.03.20-12.38.18:174][493]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionFFDDF1E24D81A2264F2546B7F50C1E13.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.38.18:176][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.41.31:549][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.41.31:689][370]LogSavePackage: Save=101.35ms
+[2017.03.20-12.41.31:689][370]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionBCAB45BB41113427E62BCD91EC3176A5.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.41.31:692][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.41.49:429][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.41.49:563][503]LogSavePackage: Save=99.46ms
+[2017.03.20-12.41.49:563][503]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionF65E7350480D8F5142A67A8BFFFB1297.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.41.49:566][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.47.25:252][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.028
+[2017.03.20-12.47.25:254][ 33]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StaticFunction] ([1] browsable assets)...
+[2017.03.20-12.47.25:254][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/StaticFunction]
+[2017.03.20-12.47.25:422][ 33]LogSavePackage: Save=120.94ms
+[2017.03.20-12.47.25:422][ 33]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction_Auto49A809FE24E11423E986927A57593A31F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto4.uasset'
+[2017.03.20-12.47.25:424][ 33]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Autosaves/Game/StaticFunction_Auto4.uasset
+[2017.03.20-12.47.25:424][ 33]LogFileHelpers: Auto-saving content packages took 0.171
+[2017.03.20-12.54.43:056][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.54.43:201][510]LogSavePackage: Save=103.25ms
+[2017.03.20-12.54.43:201][510]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction9F9C2DC5428A8ACBB7D0F59F299EF803.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.54.43:206][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.57.04:384][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.57.04:520][925]LogSavePackage: Save=102.41ms
+[2017.03.20-12.57.04:520][925]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionC749F0D549AF14079AFFFE9AE7E510EB.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.57.04:523][925]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.20-12.57.31:301][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.20-12.57.31:436][828]LogSavePackage: Save=101.55ms
+[2017.03.20-12.57.31:436][828]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunctionFD52465D4554EE77093FCAA6CC8A70DE.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.20-12.57.31:439][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.21-01.29.48:659][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.21-01.29.48:805][873]LogSavePackage: Save=104.00ms
+[2017.03.21-01.29.48:805][873]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction2123464E41C50123278AE5A3CC12DF1A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.21-01.29.48:810][873]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
+[2017.03.21-01.30.32:468][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.30.32:679][563]LogSavePackage: Save=169.37ms
+[2017.03.21-01.30.32:679][563]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit0B6E920542FF90DAE21C2F8D14B189D9.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.30.32:681][563]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.31.53:118][608]LogEditorTransaction: Undo Bulk Remove Functions
+[2017.03.21-01.31.54:540][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.31.54:743][657]LogSavePackage: Save=168.18ms
+[2017.03.21-01.31.54:743][657]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitB37DAEC0403952CD78505BB4C6BCE513.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.31.54:750][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.31.54:786][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_Archer" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_Archer.uasset" SILENT=true
+[2017.03.21-01.31.54:855][657]LogSavePackage: Save=31.85ms
+[2017.03.21-01.31.54:855][657]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/U_Archer98507CC642F963A912B3208A5C515BB7.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_Archer.uasset'
+[2017.03.21-01.31.54:858][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_Archer.uasset
+[2017.03.21-01.31.54:892][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_Bomber" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_Bomber.uasset" SILENT=true
+[2017.03.21-01.31.54:959][657]LogSavePackage: Save=28.46ms
+[2017.03.21-01.31.54:959][657]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/U_BomberF4C275D343FBCB7875B2DE9980BB6E7E.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_Bomber.uasset'
+[2017.03.21-01.31.54:962][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_Bomber.uasset
+[2017.03.21-01.31.54:993][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_MiniArcher" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_MiniArcher.uasset" SILENT=true
+[2017.03.21-01.31.55:063][657]LogSavePackage: Save=31.65ms
+[2017.03.21-01.31.55:063][657]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/U_MiniArcherA9B59A204E9632DB04C137A2FEDC1F0F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_MiniArcher.uasset'
+[2017.03.21-01.31.55:065][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_MiniArcher.uasset
+[2017.03.21-01.31.55:101][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_MiniKnight" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_MiniKnight.uasset" SILENT=true
+[2017.03.21-01.31.55:161][657]LogSavePackage: Save=22.47ms
+[2017.03.21-01.31.55:161][657]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/U_MiniKnightAC4ED3CA438B31D34647808F6C382391.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_MiniKnight.uasset'
+[2017.03.21-01.31.55:163][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/U_MiniKnight.uasset
+[2017.03.21-01.32.12:977][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.32.13:175][695]LogSavePackage: Save=166.26ms
+[2017.03.21-01.32.13:175][695]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitB59BBB3349FF51ADE2FE3DA95EA952C6.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.32.13:179][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.32.17:803][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.32.18:003][958]LogSavePackage: Save=166.48ms
+[2017.03.21-01.32.18:003][958]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitFB7C5D32499F97ED3BC0E19F0C19E931.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.32.18:006][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.32.59:236][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.32.59:436][229]LogSavePackage: Save=166.82ms
+[2017.03.21-01.32.59:436][229]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit17C8EF9E4C0FF5D9E9D5B5A7FE4A3153.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.32.59:439][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.34.09:223][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.34.09:426][605]LogSavePackage: Save=169.36ms
+[2017.03.21-01.34.09:426][605]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitAC989F9D4B9B961D29C3FF8AE8C2A56D.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.34.09:429][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.34.27:537][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.34.27:735][737]LogSavePackage: Save=165.29ms
+[2017.03.21-01.34.27:735][737]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit91F8ED464DCA53BC7B7F8FB4955D240A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.34.27:739][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.34.49:928][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.34.50:126][184]LogSavePackage: Save=165.49ms
+[2017.03.21-01.34.50:126][184]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitFDB4317747FBB74CA42E96B0D2E4C8FF.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.34.50:130][184]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.35.08:879][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.21-01.35.08:945][438]LogSavePackage: Save=26.55ms
+[2017.03.21-01.35.08:945][438]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase1E2275764CFD4EC4039E40B635442309.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.21-01.35.08:947][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.21-01.35.10:294][521]BlueprintLog: New page: Compile MyGameBase
+[2017.03.21-01.35.36:931][356]LogSavePackage: Save=152.47ms
+[2017.03.21-01.35.36:931][356]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage23C7951F4CD6B45F5FEECF8F43DCABA8.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.21-01.35.36:934][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap
+[2017.03.21-01.35.36:972][356]LogFileHelpers: Saving map 'L_Battle_Stage' took 1.319
+[2017.03.21-01.35.36:974][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameBase" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset" SILENT=true
+[2017.03.21-01.35.37:032][356]LogSavePackage: Save=25.58ms
+[2017.03.21-01.35.37:032][356]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/MyGameBase1F5CE0AF430CA0C4D256E2A8176B0A28.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset'
+[2017.03.21-01.35.37:035][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/MyGameBase.uasset
+[2017.03.21-01.37.05:836][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.37.06:046][505]LogSavePackage: Save=171.53ms
+[2017.03.21-01.37.06:046][505]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/UnitBCF4E4D64549AE21C8796D90D7F1207F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.37.06:049][505]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.38.36:770][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.38.36:969][973]LogSavePackage: Save=166.81ms
+[2017.03.21-01.38.36:970][973]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit7E2EA8F24AC5C591D1E948BB966C9CED.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.38.36:972][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.38.43:786][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.21-01.38.43:985][397]LogSavePackage: Save=166.40ms
+[2017.03.21-01.38.43:986][397]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/Unit9373A40C4364EFBDF6CD10802096C164.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.21-01.38.43:988][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.21-01.39.20:906][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_Battle" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Widget/W_Battle.uasset" SILENT=true
+[2017.03.21-01.39.20:972][ 56]LogSavePackage: Save=27.20ms
+[2017.03.21-01.39.20:972][ 56]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/W_Battle313731BB4084DB0C6CBA7191C2F31F10.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Widget/W_Battle.uasset'
+[2017.03.21-01.39.20:974][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/Widget/W_Battle.uasset
+[2017.03.21-01.39.21:612][ 89]LogSavePackage: Save=154.35ms
+[2017.03.21-01.39.21:613][ 89]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage160F80814051841B2250A9A21BF9F30A.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.21-01.39.21:614][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage.umap
+[2017.03.21-01.39.21:652][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage_BuiltData" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage_BuiltData.uasset" SILENT=true
+[2017.03.21-01.39.21:730][ 89]LogSavePackage: Save=42.84ms
+[2017.03.21-01.39.21:730][ 89]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/L_Battle_Stage_BuiltData5A84BE2E4C5B010890D25C8EFB5C92E5.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage_BuiltData.uasset'
+[2017.03.21-01.39.21:731][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/L_Battle_Stage_BuiltData.uasset
+[2017.03.21-01.39.21:946][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticFunction" FILE="../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset" SILENT=true
+[2017.03.21-01.39.22:081][ 99]LogSavePackage: Save=98.76ms
+[2017.03.21-01.39.22:081][ 99]LogSavePackage: Moving '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Saved/StaticFunction82FE28884A1268565BDB0CB3949D4B6F.tmp' to '../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset'
+[2017.03.21-01.39.22:084][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sh Kim/Documents/GitHub/PrototypingBackup/nonamed/Content/StaticFunction.uasset
