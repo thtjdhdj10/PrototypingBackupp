@@ -1,0 +1,945 @@
+﻿Log file open, 03/25/17 16:55:09
+LogInit:Display: Running engine for game: nonamed
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(632768388) SRandInit(632768388).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074209
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.12.0(build = 347531) feature version = 0. Client runs version (prod = 1).1.12.0(build = 347531) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 64.7mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.25-07.55.10:071][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.25-07.55.10:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.25-07.55.10:086][  0]LogInit: Computer: DESKTOP-HM7CSNG
+[2017.03.25-07.55.10:086][  0]LogInit: User: thtjd
+[2017.03.25-07.55.10:086][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.25-07.55.10:086][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2017.03.25-07.55.10:086][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.25-07.55.10:086][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.25-07.55.10:086][  0]LogMemory: Process Physical Memory: 269.92 MB used, 269.92 MB peak
+[2017.03.25-07.55.10:086][  0]LogMemory: Process Virtual Memory: 265.37 MB used, 265.37 MB peak
+[2017.03.25-07.55.10:086][  0]LogMemory: Physical Memory: 7979.79 MB used,  24722.91 MB free, 32702.71 MB total
+[2017.03.25-07.55.10:086][  0]LogMemory: Virtual Memory: 681.24 MB used,  24722.91 MB free, 134217728.00 MB total
+[2017.03.25-07.55.10:149][  0]LogInit: Overriding culture en with editor configuration.
+[2017.03.25-07.55.10:760][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.25-07.55.11:292][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.25-07.55.11:292][  0]LogD3D11RHI:       8119/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.25-07.55.11:293][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.25-07.55.11:293][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.25-07.55.11:293][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.25-07.55.11:297][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.25-07.55.11:297][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.25-07.55.11:297][  0]LogWindows: EnumDisplayDevices:
+[2017.03.25-07.55.11:297][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.03.25-07.55.11:297][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.25-07.55.11:298][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.25-07.55.11:298][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.25-07.55.11:298][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.25-07.55.11:298][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.25-07.55.11:298][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.25-07.55.11:298][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.25-07.55.11:298][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.25-07.55.11:801][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.25-07.55.11:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.25-07.55.11:917][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (D:/UnrealProjects/PrototypingBackupp/nonamed/Intermediate/Shaders/WorkingDirectory/7364/).
+[2017.03.25-07.55.11:917][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thtjd/AppData/Local/Temp/UnrealShaderWorkingDir/ED176FC74384B0DF47763AAFA819E34D/'.
+[2017.03.25-07.55.11:917][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.25-07.55.13:340][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.25-07.55.13:388][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.25-07.55.13:435][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.25-07.55.13:483][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.25-07.55.13:531][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.25-07.55.13:578][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.25-07.55.13:626][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.25-07.55.13:674][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.25-07.55.13:715][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.25-07.55.13:764][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.25-07.55.13:813][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.25-07.55.13:861][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.25-07.55.13:911][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.25-07.55.13:960][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.25-07.55.14:008][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.25-07.55.14:101][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.25-07.55.14:102][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.25-07.55.14:134][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.25-07.55.14:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.25-07.55.14:253][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.25-07.55.14:301][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.25-07.55.14:348][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.25-07.55.14:395][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.25-07.55.14:443][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.25-07.55.14:443][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.25-07.55.14:819][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.25-07.55.14:866][  0]LogDerivedDataCache: Loaded boot cache 0.05s 61MB C:/Users/thtjd/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.25-07.55.14:866][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/thtjd/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.25-07.55.14:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/PrototypingBackupp/nonamed/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.25-07.55.14:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.25-07.55.14:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/PrototypingBackupp/nonamed/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.25-07.55.14:866][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.25-07.55.14:882][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.25-07.55.14:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thtjd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.25-07.55.14:901][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.25-07.55.14:902][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.25-07.55.14:902][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.25-07.55.15:134][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.25-07.55.15:136][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.25-07.55.15:324][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.25-07.55.15:362][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.25-07.55.15:401][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.25-07.55.15:401][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.25-07.55.15:401][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.25-07.55.15:877][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: nonamed, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1112449053
+[2017.03.25-07.55.15:920][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.03.25-07.55.15:953][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.013231 seconds
+[2017.03.25-07.55.15:957][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.25-07.55.15:957][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.03.25-07.55.15:957][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.25-07.55.16:012][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.25-07.55.17:419][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.25-07.55.17:454][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.25-07.55.17:835][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.25-07.55.18:158][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.55.18:158][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.55.18:195][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.55.18:233][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.55.19:231][  0]LogEngine: Initializing Engine...
+[2017.03.25-07.55.19:232][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.12.0, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.03.25-07.55.19:327][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.03.25-07.55.19:327][  0]OCULUS: Info: IAD changed to 64.7mm
+[2017.03.25-07.55.19:425][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.25-07.55.19:440][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-07.55.19:449][  0]LogInit: FAudioDevice initialized.
+[2017.03.25-07.55.19:470][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/thtjd/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.25-07.55.19:474][  0]LogInit: Texture streaming: Enabled
+[2017.03.25-07.55.19:548][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.25-07.55.19:629][  0]LogInit: Transaction tracking system initialized
+[2017.03.25-07.55.19:948][  0]BlueprintLog: New page: Editor Load
+[2017.03.25-07.55.20:754][  0]LocalizationService: Info Localization service is disabled
+[2017.03.25-07.55.21:342][  0]LogConsoleResponse:Display: 
+[2017.03.25-07.55.21:499][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.25-07.55.21:499][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.25-07.55.22:285][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/' took 0.01s
+[2017.03.25-07.55.22:320][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.55.22:320][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.25-07.55.22:321][  0]LightingResults: New page: Lighting Build
+[2017.03.25-07.55.22:352][  0]MapCheck: New page: Map Check
+[2017.03.25-07.55.22:352][  0]LightingResults: New page: Lighting Build
+[2017.03.25-07.55.22:514][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.25-07.55.22:529][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.25-07.55.22:532][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.25-07.55.22:536][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.25-07.55.22:566][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.196ms to complete.
+[2017.03.25-07.55.22:566][  0]LogFileHelpers: Loading map 'Template_Default' took 0.246
+[2017.03.25-07.55.22:743][  0]LogCollectionManager: Loaded 0 collections in 0.001125 seconds
+[2017.03.25-07.55.22:823][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Collections/' took 0.01s
+[2017.03.25-07.55.22:823][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Developers/thtjd/Collections/' took 0.01s
+[2017.03.25-07.55.22:823][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Collections/' took 0.01s
+[2017.03.25-07.55.22:823][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.25-07.55.22:830][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2245 classes and 453 folders.
+[2017.03.25-07.55.22:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.25-07.55.22:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.25-07.55.22:885][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.25-07.55.22:913][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.25-07.55.22:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.25-07.55.23:064][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.25-07.55.23:072][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.25-07.55.23:133][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.25-07.55.23:133][  0]LogLoad: (Engine Initialization) Total time: 15.05 seconds
+[2017.03.25-07.55.23:133][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.03.25-07.55.23:133][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.25-07.55.23:133][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.25-07.55.23:475][  0]LogOcInput: OculusInput pre-init called
+[2017.03.25-07.55.23:486][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.12.0
+[2017.03.25-07.55.23:507][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.25-07.55.23:508][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.25-07.55.23:511][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.25-07.55.23:517][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.25-07.55.23:626][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.25-07.55.23:710][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.25-07.55.23:821][  1]LogAssetRegistry: Asset discovery search completed in 7.9232 seconds
+[2017.03.25-07.55.23:821][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.03.25-07.55.23:821][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.03.25-07.55.24:474][  3]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.25-07.55.36:539][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.36:539][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_BattleResult.uasset.
+[2017.03.25-07.55.36:539][417]LoadErrors:Error: Error /Game/Widget/W_BattleResult : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_BasicAttackSound
+[2017.03.25-07.55.36:701][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.36:701][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_BattleResult.uasset.
+[2017.03.25-07.55.36:793][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.36:793][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Battle_Zone_Blueprint.uasset.
+[2017.03.25-07.55.36:793][417]LoadErrors:Error: Error /Game/Battle_Zone_Blueprint : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_BasicAttackSound
+[2017.03.25-07.55.36:793][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.36:793][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Battle_Zone_Blueprint.uasset.
+[2017.03.25-07.55.36:794][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.36:794][417]LoadErrors: Info Failed to load /Engine/EditorSounds/GamePreview/S_BasicAttackSound.S_BasicAttackSound Referenced by K2Node_CallFunction_154
+[2017.03.25-07.55.36:794][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Battle_Zone_Blueprint.uasset.
+[2017.03.25-07.55.37:366][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.37:366][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Projectile/Pr_Arrow_Blueprint.uasset.
+[2017.03.25-07.55.37:366][417]LoadErrors:Error: Error /Game/Blueprint/Projectile/Pr_Arrow_Blueprint : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_BasicAttackSound
+[2017.03.25-07.55.37:537][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.37:537][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Projectile/Pr_Arrow_Blueprint.uasset.
+[2017.03.25-07.55.37:547][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.37:547][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_MiniArcher.uasset.
+[2017.03.25-07.55.37:547][417]LoadErrors:Error: Error /Game/Blueprint/Unit/U_MiniArcher : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_BasicAttackSound
+[2017.03.25-07.55.37:547][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.37:547][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_MiniArcher.uasset.
+[2017.03.25-07.55.37:549][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.37:549][417]LoadErrors: Info Failed to load /Engine/EditorSounds/GamePreview/S_BasicAttackSound.S_BasicAttackSound Referenced by K2Node_CallFunction_49
+[2017.03.25-07.55.37:549][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_MiniArcher.uasset.
+[2017.03.25-07.55.37:591][417]LogClass:Warning: Type mismatch in ProjectileDamage of Pr_Arrow_Blueprint_C - Previous (FloatProperty) Current(IntProperty) for package:  FObjectReader
+[2017.03.25-07.55.37:929][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound'
+[2017.03.25-07.55.37:929][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Archer.uasset.
+[2017.03.25-07.55.37:929][417]LoadErrors:Error: Error /Game/Blueprint/Unit/U_Archer : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_ProjectileAttackSound
+[2017.03.25-07.55.37:929][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound'
+[2017.03.25-07.55.37:929][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Archer.uasset.
+[2017.03.25-07.55.37:936][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound'
+[2017.03.25-07.55.37:936][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset.
+[2017.03.25-07.55.37:936][417]LoadErrors:Error: Error /Game/Blueprint/Unit/Unit : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_ProjectileAttackSound
+[2017.03.25-07.55.37:936][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound'
+[2017.03.25-07.55.37:936][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset.
+[2017.03.25-07.55.37:938][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound'
+[2017.03.25-07.55.37:938][417]LoadErrors: Info Failed to load /Engine/EditorSounds/GamePreview/S_ProjectileAttackSound.S_ProjectileAttackSound Referenced by K2Node_CallFunction_324
+[2017.03.25-07.55.37:938][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_ProjectileAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset.
+[2017.03.25-07.55.37:988][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.37:988][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Bomber.uasset.
+[2017.03.25-07.55.37:988][417]LoadErrors:Error: Error /Game/Blueprint/Unit/U_Bomber : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_BasicAttackSound
+[2017.03.25-07.55.38:285][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.38:285][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Bomber.uasset.
+[2017.03.25-07.55.38:299][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.38:299][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset.
+[2017.03.25-07.55.38:299][417]LoadErrors:Error: Error /Game/Blueprint/Unit/Unit : Can't find file for asset. /Engine/EditorSounds/GamePreview/S_BasicAttackSound
+[2017.03.25-07.55.38:299][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.38:299][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset.
+[2017.03.25-07.55.38:301][417]LogLinker:Warning: Can't find file '/Engine/EditorSounds/GamePreview/S_BasicAttackSound'
+[2017.03.25-07.55.38:301][417]LoadErrors: Info Failed to load /Engine/EditorSounds/GamePreview/S_BasicAttackSound.S_BasicAttackSound Referenced by K2Node_CallFunction_18
+[2017.03.25-07.55.38:301][417]LogLinker:Warning: Can't find file for asset '/Engine/EditorSounds/GamePreview/S_BasicAttackSound' while loading D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset.
+[2017.03.25-07.55.38:759][417]LogBlueprint:Warning: [PlayerBP] 'NearestOverlappingActor' variable not found. Base class was probably changed.
+[2017.03.25-07.55.38:760][417]LogBlueprint:Warning: [PlayerBP] 'NearestOverlap' variable not found. Base class was probably changed.
+[2017.03.25-07.55.38:761][417]LogBlueprint:Warning: [PlayerBP] 'NearestOverlap' variable not found. Base class was probably changed.
+[2017.03.25-07.55.38:761][417]LogBlueprint:Warning: [PlayerBP] 'NearestOverlap' variable not found. Base class was probably changed.
+[2017.03.25-07.55.38:762][417]LogBlueprint:Warning: [PlayerBP] 'NearestOverlappingActor' variable not found. Base class was probably changed.
+[2017.03.25-07.55.38:763][417]LogBlueprint:Warning: [PlayerBP] 'NearestOverlappingActor' variable not found. Base class was probably changed.
+[2017.03.25-07.55.40:963][417]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.25-07.55.41:809][417]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.25-07.55.42:319][417]LogClass:Warning: Enum '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogEnum:Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2017.03.25-07.55.42:336][417]LogClass:Warning: Enum '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:343][417]LogEnum:Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/KY_MagicEffects03/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/KY_MagicEffects02/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2017.03.25-07.55.42:574][417]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0062 seconds. Added 112 classes and 0 folders.
+[2017.03.25-07.55.50:559][417]LogScript:Warning: Accessed None trying to read property playerScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0283
+[2017.03.25-07.55.50:560][417]LogScript:Warning: Accessed None trying to read property playerScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0376
+[2017.03.25-07.55.50:560][417]LogScript:Warning: Accessed None trying to read property opponentScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0568
+[2017.03.25-07.55.50:560][417]LogScript:Warning: Accessed None trying to read property opponentScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:065B
+[2017.03.25-07.55.50:560][417]LogScript:Warning: Accessed None trying to read property playerDeck
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:092B
+[2017.03.25-07.55.50:560][417]LogScript:Warning: Accessed None trying to read property opponentDeck
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0C30
+[2017.03.25-07.55.50:570][417]LogSlate: Took 0.004356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.25-07.55.51:005][418]LogSlate: Took 0.003781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.25-07.55.59:999][446]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{455ccecc-9596-43ef-bc6b-90ad4801f558} was removed. Shutting down audio device.
+[2017.03.25-08.00.44:421][712]LogAIModule: Creating AISystem for world L_Battle_Stage
+[2017.03.25-08.00.44:509][712]Cmd: MAP LOAD FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.25-08.00.44:510][712]LightingResults: New page: Lighting Build
+[2017.03.25-08.00.44:511][712]LoadErrors: New page: Loading map: L_Battle_Stage.umap
+[2017.03.25-08.00.44:512][712]MapCheck: New page: Map Check
+[2017.03.25-08.00.44:512][712]LightingResults: New page: Lighting Build
+[2017.03.25-08.00.44:663][712]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.25-08.00.44:697][712]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.25-08.00.44:745][712]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.613ms to complete.
+[2017.03.25-08.00.44:745][712]LogFileHelpers: Loading map 'L_Battle_Stage' took 0.236
+[2017.03.25-08.05.53:186][186]LogEditorViewport: Clicking on Actor (context menu): Unit_Deck_BP_C (Player_Deck_Blueprint6)
+[2017.03.25-08.10.44:588][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Autosaves/Game/L_Battle_Stage_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.03.25-08.10.44:923][641]LogSavePackage: Save=166.00ms
+[2017.03.25-08.10.44:923][641]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage_Auto11FDE61B9451B9BF1D2DCCB9CA74D581A.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Autosaves/Game/L_Battle_Stage_Auto1.umap'
+[2017.03.25-08.10.44:924][641]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Autosaves/Game/L_Battle_Stage_Auto1.umap
+[2017.03.25-08.10.44:925][641]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L_Battle_Stage' took 0.394
+[2017.03.25-08.10.44:925][641]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.394
+[2017.03.25-08.13.56:710][ 38]LogSlate: Took 0.002150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.03.25-08.18.51:415][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.18.51:603][561]LogSavePackage: Save=152.05ms
+[2017.03.25-08.18.51:603][561]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage9C711BC04D9766DE85B535BF5DB93917.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.18.51:606][561]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.18.51:637][561]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.268
+[2017.03.25-08.18.51:639][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UnitStatusDatatable" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset" SILENT=true
+[2017.03.25-08.18.51:654][561]LogSavePackage: Save=3.57ms
+[2017.03.25-08.18.51:654][561]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/UnitStatusDatatable0603D12541C1CD8400201697E48BCDF7.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset'
+[2017.03.25-08.18.51:655][561]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset
+[2017.03.25-08.19.09:937][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UnitStatusDatatable" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset" SILENT=true
+[2017.03.25-08.19.09:952][641]LogSavePackage: Save=3.54ms
+[2017.03.25-08.19.09:952][641]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/UnitStatusDatatable7325C1BD48112CA83390179B87BD3917.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset'
+[2017.03.25-08.19.09:953][641]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset
+[2017.03.25-08.19.14:724][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UnitStatusDatatable" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset" SILENT=true
+[2017.03.25-08.19.14:741][148]LogSavePackage: Save=5.86ms
+[2017.03.25-08.19.14:741][148]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/UnitStatusDatatableC2F06B2B480392CC2804A79BB027E24F.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset'
+[2017.03.25-08.19.14:741][148]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset
+[2017.03.25-08.19.37:653][518]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:20776).
+[2017.03.25-08.20.12:006][390]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.25-08.20.19:238][963]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.25-08.20.52:078][612]LogEditorTransaction: Undo Set actor scale
+[2017.03.25-08.20.53:359][723]LogEditorTransaction: Undo Set actor scale
+[2017.03.25-08.21.21:577][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_GiantKnight2" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_GiantKnight2.uasset" SILENT=true
+[2017.03.25-08.21.21:599][976]LogSavePackage: Save=20.53ms
+[2017.03.25-08.21.21:599][976]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/U_GiantKnight20ADE956F4D41321961E742A692C50AB0.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_GiantKnight2.uasset'
+[2017.03.25-08.21.21:600][976]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_GiantKnight2.uasset
+[2017.03.25-08.26.31:696][817]LogMetaData: Removing '/Game/Blueprint/Unit/U_Castle.SKEL_U_Castle_C' ref from Metadata '/Game/Blueprint/Unit/U_GiantKnight2.PackageMetaData'
+[2017.03.25-08.26.31:696][817]LogMetaData: Removing '/Game/Blueprint/Unit/U_Castle.U_Castle_C' ref from Metadata '/Game/Blueprint/Unit/U_GiantKnight2.PackageMetaData'
+[2017.03.25-08.26.31:727][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_Castle" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset" SILENT=true
+[2017.03.25-08.26.31:748][817]LogSavePackage: Save=20.07ms
+[2017.03.25-08.26.31:748][817]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/U_Castle493251C64A579E18642E509B6B10DEEF.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset'
+[2017.03.25-08.26.31:749][817]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset
+[2017.03.25-08.26.32:885][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_Castle" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset" SILENT=true
+[2017.03.25-08.26.32:916][911]LogSavePackage: Save=15.90ms
+[2017.03.25-08.26.32:916][911]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/U_Castle3E5D814C4C4E765879E9C48FDD5BCFDB.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset'
+[2017.03.25-08.26.32:916][911]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset
+[2017.03.25-08.26.35:428][140]BlueprintLog: New page: Compile U_Castle
+[2017.03.25-08.27.27:269][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_UnitState" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_UnitState.uasset" SILENT=true
+[2017.03.25-08.27.27:297][671]LogSavePackage: Save=13.03ms
+[2017.03.25-08.27.27:297][671]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_UnitStateBEE764EA4B35DEDEDF610EB0FC1352F0.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_UnitState.uasset'
+[2017.03.25-08.27.27:298][671]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_UnitState.uasset
+[2017.03.25-08.27.27:300][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_Battle" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_Battle.uasset" SILENT=true
+[2017.03.25-08.27.27:344][671]LogSavePackage: Save=28.91ms
+[2017.03.25-08.27.27:344][671]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_BattleBD521C0C4FFF9EB05A08E783E27CB20C.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_Battle.uasset'
+[2017.03.25-08.27.27:345][671]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_Battle.uasset
+[2017.03.25-08.27.27:347][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_DeployUnit" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_DeployUnit.uasset" SILENT=true
+[2017.03.25-08.27.27:387][671]LogSavePackage: Save=25.29ms
+[2017.03.25-08.27.27:387][671]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_DeployUnit37682B4F4957BF065F342D9048ADD945.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_DeployUnit.uasset'
+[2017.03.25-08.27.27:389][671]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_DeployUnit.uasset
+[2017.03.25-08.27.27:393][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_GameStatement" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_GameStatement.uasset" SILENT=true
+[2017.03.25-08.27.27:433][671]LogSavePackage: Save=25.62ms
+[2017.03.25-08.27.27:433][671]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_GameStatementF60A7B7D40DD6411D5C976BBC97C6316.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_GameStatement.uasset'
+[2017.03.25-08.27.27:434][671]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_GameStatement.uasset
+[2017.03.25-08.27.27:438][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_SelectUnit" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset" SILENT=true
+[2017.03.25-08.27.27:485][671]LogSavePackage: Save=32.58ms
+[2017.03.25-08.27.27:485][671]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_SelectUnit3586CA48468CEB8D4D7A7C8A8AD4092F.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset'
+[2017.03.25-08.27.27:486][671]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset
+[2017.03.25-08.27.27:990][705]BlueprintLog: New page: Compile W_UnitState
+[2017.03.25-08.34.27:133][289]LogEditorViewport: Clicking on Actor (LMB): Battle_Zone_Blueprint_C (Battle_Zone_Blueprint)
+[2017.03.25-08.34.56:613][ 75]LogScript:Warning: Accessed None trying to read property playerScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0283
+[2017.03.25-08.34.56:613][ 75]LogScript:Warning: Accessed None trying to read property playerScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0376
+[2017.03.25-08.34.56:613][ 75]LogScript:Warning: Accessed None trying to read property opponentScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0568
+[2017.03.25-08.34.56:613][ 75]LogScript:Warning: Accessed None trying to read property opponentScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:065B
+[2017.03.25-08.34.56:613][ 75]LogScript:Warning: Accessed None trying to read property playerDeck
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:092B
+[2017.03.25-08.34.56:613][ 75]LogScript:Warning: Accessed None trying to read property opponentDeck
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0C30
+[2017.03.25-08.34.56:656][ 75]LogScript:Warning: Accessed None trying to read property playerScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0283
+[2017.03.25-08.34.56:656][ 75]LogScript:Warning: Accessed None trying to read property playerScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0376
+[2017.03.25-08.34.56:656][ 75]LogScript:Warning: Accessed None trying to read property opponentScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:0568
+[2017.03.25-08.34.56:656][ 75]LogScript:Warning: Accessed None trying to read property opponentScene
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:065B
+[2017.03.25-08.34.56:656][ 75]LogScript:Warning: Accessed None trying to read property playerDeck
+	Battle_Zone_Blueprint_C /Engine/Transient.World_8:PersistentLevel.Battle_Zone_Blueprint_C_0
+	Function /Game/Battle_Zone_Blueprint.Battle_Zone_Blueprint_C:UserConstructionScript:092B
+[2017.03.25-08.34.59:401][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.34.59:612][223]LogSavePackage: Save=167.60ms
+[2017.03.25-08.34.59:612][223]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage18FCB904428CC7543516F38006D46A3A.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.34.59:613][223]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.34.59:644][223]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.288
+[2017.03.25-08.34.59:646][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Battle_Zone_Blueprint" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Battle_Zone_Blueprint.uasset" SILENT=true
+[2017.03.25-08.34.59:695][223]LogSavePackage: Save=34.12ms
+[2017.03.25-08.34.59:695][223]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Battle_Zone_BlueprintD43934A64907193007C33399EB2C965D.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Battle_Zone_Blueprint.uasset'
+[2017.03.25-08.34.59:697][223]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Battle_Zone_Blueprint.uasset
+[2017.03.25-08.35.06:580][617]LogEditorViewport: Clicking on Actor (LMB): Enemy_Blueprint_C (Enemy_Blueprint)
+[2017.03.25-08.35.08:483][715]LogEditorViewport: Clicking on Actor (LMB): Battle_Zone_Blueprint_C (Battle_Zone_Blueprint)
+[2017.03.25-08.35.14:436][ 54]LogEditorViewport: Clicking on Actor (LMB): Battle_Zone_Blueprint_C (Battle_Zone_Blueprint)
+[2017.03.25-08.36.17:815][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.36.18:018][657]LogSavePackage: Save=164.03ms
+[2017.03.25-08.36.18:018][657]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_StageC9CEEBF34FF3128B8877F1A2F8B5088A.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.36.18:020][657]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.36.18:050][657]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.279
+[2017.03.25-08.36.49:507][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.36.49:716][418]LogSavePackage: Save=168.81ms
+[2017.03.25-08.36.49:716][418]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage06D199514E167A01D85BD492B0011B3F.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.36.49:717][418]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.36.49:749][418]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.286
+[2017.03.25-08.37.13:444][848]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of 'UnitType::NewEnumerator8'
+[2017.03.25-08.37.13:467][848]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:847][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:847][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:848][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:849][447]LogEnum:Warning: In asset 'None', there is an enum property of type 'UnitType' with an invalid value of '(INVALID)'
+[2017.03.25-08.37.19:971][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.37.20:183][447]LogSavePackage: Save=169.50ms
+[2017.03.25-08.37.20:183][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage850A35B84E09D1B67A00CD9C4D5D3BE7.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.37.20:184][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.37.20:215][447]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.288
+[2017.03.25-08.37.20:217][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PlayerBP" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset" SILENT=true
+[2017.03.25-08.37.20:366][447]LogSavePackage: Save=133.11ms
+[2017.03.25-08.37.20:366][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/PlayerBPAFBA49694B1A5792856DB99351EE88B8.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset'
+[2017.03.25-08.37.20:367][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset
+[2017.03.25-08.37.20:370][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/Unit" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset" SILENT=true
+[2017.03.25-08.37.20:574][447]LogSavePackage: Save=188.94ms
+[2017.03.25-08.37.20:574][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Unit55BDD1224B2AC11B127E2AB6C2EFA10E.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset'
+[2017.03.25-08.37.20:575][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/Unit.uasset
+[2017.03.25-08.37.20:578][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Type/UnitType" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Type/UnitType.uasset" SILENT=true
+[2017.03.25-08.37.20:593][447]LogSavePackage: Save=3.10ms
+[2017.03.25-08.37.20:593][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/UnitType2B0182BA46BED3EE72F9658067A78CCB.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Type/UnitType.uasset'
+[2017.03.25-08.37.20:594][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Type/UnitType.uasset
+[2017.03.25-08.37.20:597][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/MyGameBase" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/MyGameBase.uasset" SILENT=true
+[2017.03.25-08.37.20:646][447]LogSavePackage: Save=33.22ms
+[2017.03.25-08.37.20:646][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/MyGameBase1BC4CDDA4AF5F5D6711D07B4DA010E5A.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/MyGameBase.uasset'
+[2017.03.25-08.37.20:648][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/MyGameBase.uasset
+[2017.03.25-08.37.20:650][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Blueprint" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Enemy_Blueprint.uasset" SILENT=true
+[2017.03.25-08.37.20:711][447]LogSavePackage: Save=45.96ms
+[2017.03.25-08.37.20:711][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Enemy_BlueprintE1DB604F46813D3487F7059D59CA4961.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Enemy_Blueprint.uasset'
+[2017.03.25-08.37.20:713][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Enemy_Blueprint.uasset
+[2017.03.25-08.37.20:716][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/StaticFunction" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/StaticFunction.uasset" SILENT=true
+[2017.03.25-08.37.20:871][447]LogSavePackage: Save=127.81ms
+[2017.03.25-08.37.20:871][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/StaticFunction3BDEAB994ADEFB87B797EF9D74765FE0.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/StaticFunction.uasset'
+[2017.03.25-08.37.20:872][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/StaticFunction.uasset
+[2017.03.25-08.37.20:876][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_SelectUnit" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset" SILENT=true
+[2017.03.25-08.37.20:922][447]LogSavePackage: Save=31.08ms
+[2017.03.25-08.37.20:922][447]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_SelectUnit76161D434E7454771F7FB2BD3341E9C8.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset'
+[2017.03.25-08.37.20:923][447]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset
+[2017.03.25-08.37.39:140][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.37.39:350][217]LogSavePackage: Save=170.72ms
+[2017.03.25-08.37.39:350][217]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage747C91F5432180347994EB87A71196EA.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.37.39:351][217]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.37.39:382][217]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.286
+[2017.03.25-08.37.39:388][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_Castle" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset" SILENT=true
+[2017.03.25-08.37.39:419][217]LogSavePackage: Save=17.50ms
+[2017.03.25-08.37.39:420][217]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/U_Castle60092D0E4A56C4829908C1A17D3E0C3B.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset'
+[2017.03.25-08.37.39:421][217]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset
+[2017.03.25-08.37.56:861][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.37.57:072][379]LogSavePackage: Save=169.86ms
+[2017.03.25-08.37.57:072][379]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage679A968E461696CFD218B3B9BA3536FE.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.37.57:073][379]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.37.57:104][379]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.287
+[2017.03.25-08.37.57:110][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Unit/U_Castle" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset" SILENT=true
+[2017.03.25-08.37.57:139][379]LogSavePackage: Save=17.36ms
+[2017.03.25-08.37.57:139][379]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/U_Castle1B55B5BE49D5BEACB76CD79C99BF59A3.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset'
+[2017.03.25-08.37.57:140][379]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Blueprint/Unit/U_Castle.uasset
+[2017.03.25-08.38.03:827][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.38.04:039][848]LogSavePackage: Save=171.40ms
+[2017.03.25-08.38.04:039][848]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage45F1718B469A3DAE80472A9DE0DB73C4.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.38.04:039][848]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.38.04:075][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage_BuiltData" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage_BuiltData.uasset" SILENT=true
+[2017.03.25-08.38.04:192][848]LogSavePackage: Save=68.49ms
+[2017.03.25-08.38.04:192][848]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage_BuiltDataE082AEEF4E037F5B9CD51F8C28AD1691.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage_BuiltData.uasset'
+[2017.03.25-08.38.04:192][848]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage_BuiltData.uasset
+[2017.03.25-08.38.33:510][ 77]Cmd: DUPLICATE
+[2017.03.25-08.38.33:510][ 77]Cmd: ACTOR DUPLICATE
+[2017.03.25-08.38.35:771][320]Cmd: TRANSACTION UNDO
+[2017.03.25-08.38.35:771][320]LogEditorTransaction: Undo Move Components
+[2017.03.25-08.38.40:964][752]Cmd: DUPLICATE
+[2017.03.25-08.38.40:964][752]Cmd: ACTOR DUPLICATE
+[2017.03.25-08.39.15:304][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.39.15:521][537]LogSavePackage: Save=175.78ms
+[2017.03.25-08.39.15:521][537]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_StageC1F62AB54A047D954522B298333DD664.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.39.15:522][537]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.39.15:554][537]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.294
+[2017.03.25-08.39.24:711][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.39.24:926][523]LogSavePackage: Save=174.24ms
+[2017.03.25-08.39.24:926][523]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage1AC1DD234E1D576522A8B2AC12D8E31E.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.39.24:927][523]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.39.24:959][523]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.292
+[2017.03.25-08.40.41:303][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UnitStatusDatatable" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset" SILENT=true
+[2017.03.25-08.40.41:319][536]LogSavePackage: Save=3.48ms
+[2017.03.25-08.40.41:319][536]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/UnitStatusDatatable59F965644E17D3537957B9A4510D72CC.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset'
+[2017.03.25-08.40.41:320][536]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset
+[2017.03.25-08.40.47:599][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UnitStatusDatatable" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset" SILENT=true
+[2017.03.25-08.40.47:614][283]LogSavePackage: Save=3.59ms
+[2017.03.25-08.40.47:614][283]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/UnitStatusDatatable1209CDBD4F7B7E44E72403AA56E22007.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset'
+[2017.03.25-08.40.47:615][283]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/UnitStatusDatatable.uasset
+[2017.03.25-08.40.50:466][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.40.50:683][581]LogSavePackage: Save=175.02ms
+[2017.03.25-08.40.50:683][581]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage790ABBC545AFEEB6450A078CEFF441B9.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.40.50:684][581]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.40.50:720][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage_BuiltData" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage_BuiltData.uasset" SILENT=true
+[2017.03.25-08.40.50:776][581]LogSavePackage: Save=45.33ms
+[2017.03.25-08.40.50:776][581]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage_BuiltData6576D32E4D2E3E4ECC900598C8AB2F66.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage_BuiltData.uasset'
+[2017.03.25-08.40.50:777][581]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage_BuiltData.uasset
+[2017.03.25-08.42.28:566][655]LogEditorTransaction: Undo Delete current selection
+[2017.03.25-08.42.29:343][679]LogEditorTransaction: Undo Delete current selection
+[2017.03.25-08.42.30:062][701]LogEditorTransaction: Undo Delete current selection
+[2017.03.25-08.42.32:974][846]BlueprintLog: New page: Compile PlayerBP
+[2017.03.25-08.42.33:920][846]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_59" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_59
+[2017.03.25-08.42.33:921][846]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_60" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_60
+[2017.03.25-08.42.33:921][846]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_61" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_61
+[2017.03.25-08.42.33:922][846]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 61  could not be found
+[2017.03.25-08.42.33:922][846]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 60  could not be found
+[2017.03.25-08.42.33:922][846]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 59  could not be found
+[2017.03.25-08.42.36:638][846]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CASTLE
+[2017.03.25-08.42.36:639][846]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CASTLE
+[2017.03.25-08.43.27:365][222]LogEditorTransaction: Undo Delete current selection
+[2017.03.25-08.43.28:231][269]LogEditorTransaction: Undo Add Node
+[2017.03.25-08.43.28:859][304]LogEditorTransaction: Undo Delete current selection
+[2017.03.25-08.44.05:571][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.44.05:790][845]LogSavePackage: Save=177.93ms
+[2017.03.25-08.44.05:790][845]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_StageFB1F0258423C0EFD61429FB194406C46.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.44.05:791][845]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.44.05:821][845]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.296
+[2017.03.25-08.44.05:823][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PlayerBP" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset" SILENT=true
+[2017.03.25-08.44.05:962][845]LogSavePackage: Save=123.68ms
+[2017.03.25-08.44.05:962][845]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/PlayerBP9EFB2E1C47B4E366514030A7627E608A.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset'
+[2017.03.25-08.44.05:963][845]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset
+[2017.03.25-08.44.35:349][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PlayerBP" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset" SILENT=true
+[2017.03.25-08.44.35:483][984]LogSavePackage: Save=122.01ms
+[2017.03.25-08.44.35:483][984]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/PlayerBP10063A7249BA9532EBC7B288A392EB2F.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset'
+[2017.03.25-08.44.35:484][984]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset
+[2017.03.25-08.44.59:520][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.44.59:736][725]LogSavePackage: Save=174.65ms
+[2017.03.25-08.44.59:736][725]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_StageE8D5FED84A9C43409C89E0856A563D1B.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.44.59:737][725]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.44.59:768][725]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.292
+[2017.03.25-08.44.59:770][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/PlayerBP" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset" SILENT=true
+[2017.03.25-08.44.59:899][725]LogSavePackage: Save=118.07ms
+[2017.03.25-08.44.59:900][725]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/PlayerBPEF1A13504373585C70F81EB9659C1042.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset'
+[2017.03.25-08.44.59:901][725]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Core/PlayerBP.uasset
+[2017.03.25-08.47.00:040][367]BlueprintLog: New page: Compile W_SelectUnit
+[2017.03.25-08.47.00:060][367]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_59" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_59
+[2017.03.25-08.47.00:060][367]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_60" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_60
+[2017.03.25-08.47.00:060][367]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_61" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_61
+[2017.03.25-08.47.00:061][367]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 61  could not be found
+[2017.03.25-08.47.00:061][367]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 60  could not be found
+[2017.03.25-08.47.00:061][367]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 59  could not be found
+[2017.03.25-08.47.00:282][367]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Image_59" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_59
+[2017.03.25-08.47.00:282][367]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Image_60" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_60
+[2017.03.25-08.47.00:282][367]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Image_61" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_61
+[2017.03.25-08.47.00:282][367]BlueprintEditorCompileResults:Error: Error The property associated with  Image 61  could not be found
+[2017.03.25-08.47.00:282][367]BlueprintEditorCompileResults:Error: Error The property associated with  Image 60  could not be found
+[2017.03.25-08.47.00:282][367]BlueprintEditorCompileResults:Error: Error The property associated with  Image 59  could not be found
+[2017.03.25-08.47.00:283][367]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning [3112.20] Compile of W_SelectUnit failed. 3 Fatal Issue(s) 3 Warning(s) [in 241 ms] (/Game/Widget/W_SelectUnit.W_SelectUnit)
+[2017.03.25-08.47.07:221][847]LogTemp: Repeting last play command: VR Preview
+[2017.03.25-08.47.07:274][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel' has LevelScriptBlueprint '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage' with GeneratedClass '/Game/L_Battle_Stage.L_Battle_Stage_C' with ClassGeneratedBy '/Game/L_Battle_Stage.L_Battle_Stage:PersistentLevel.L_Battle_Stage'
+[2017.03.25-08.47.07:274][847]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.25-08.47.07:274][847]LogPlayLevel: [PlayLevel] Compiling PlayerBP before play...
+[2017.03.25-08.47.07:362][847]LogBlueprint:Error: [Compiler PlayerBP] Error This blueprint (self) is not a MyGameBase_C, therefore ' Target ' must have a connection.
+[2017.03.25-08.47.07:398][847]LogPlayLevel: [PlayLevel]   Compiling W_SelectUnit as a dependent...
+[2017.03.25-08.47.07:413][847]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_59" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_59
+[2017.03.25-08.47.07:413][847]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_60" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_60
+[2017.03.25-08.47.07:413][847]LogBlueprint:Warning: [Compiler W_SelectUnit] Warning Could not find a variable named "Image_61" in 'W_SelectUnit_C'.
+Make sure 'W_SelectUnit_C' has been compiled for  Get Image_61
+[2017.03.25-08.47.07:414][847]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 61  could not be found
+[2017.03.25-08.47.07:414][847]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 60  could not be found
+[2017.03.25-08.47.07:415][847]LogBlueprint:Error: [Compiler W_SelectUnit] Error The property associated with  Image 59  could not be found
+[2017.03.25-08.47.08:144][847]LogBlueprint:Warning: [Compiler PlayerBP] Warning [3120.06] Compile of PlayerBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 816 ms] (/Game/Core/PlayerBP.PlayerBP)
+[2017.03.25-08.47.08:152][847]LogBlueprint:Warning: [Compiler PlayerBP] Warning [3120.07] Compile of PlayerBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 7 ms] (/Game/Core/PlayerBP.PlayerBP)
+[2017.03.25-08.47.08:152][847]LogBlueprint:Warning: [Compiler PlayerBP] Warning [3120.07] Compile of PlayerBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Core/PlayerBP.PlayerBP)
+[2017.03.25-08.47.08:152][847]LogBlueprint:Warning: [Compiler PlayerBP] Warning [3120.07] Compile of PlayerBP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Core/PlayerBP.PlayerBP)
+[2017.03.25-08.47.08:159][847]LogBlueprint:Warning: [Compiler PlayerBP] Warning [3120.07] Compile of PlayerBP failed. 1 Fatal Issue(s) 4 Warning(s) [in 6 ms] (/Game/Core/PlayerBP.PlayerBP)
+[2017.03.25-08.47.08:159][847]LogBlueprint:Warning: [Compiler PlayerBP] Warning [3120.07] Compile of PlayerBP failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Core/PlayerBP.PlayerBP)
+[2017.03.25-08.47.08:160][847]LogPlayLevel: [PlayLevel] Compiling Battle_Zone_Blueprint before play...
+[2017.03.25-08.47.08:389][847]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2017.03.25-08.47.08:538][847]LogPlayLevel: PlayLevel: Blueprint regeneration took 1264 ms (4 blueprints)
+[2017.03.25-08.47.08:538][847]BlueprintLog: Info Blueprint PlayerBP failed to compile
+[2017.03.25-08.47.20:135][528]BlueprintLog: New page: Compile W_SelectUnit
+[2017.03.25-08.47.22:155][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L_Battle_Stage" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.25-08.47.22:371][640]LogSavePackage: Save=172.70ms
+[2017.03.25-08.47.22:371][640]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/L_Battle_Stage51A67CD14C4CE0B591E9EDA5960F43B5.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap'
+[2017.03.25-08.47.22:372][640]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/L_Battle_Stage.umap
+[2017.03.25-08.47.22:404][640]LogFileHelpers: Saving map 'L_Battle_Stage' took 0.293
+[2017.03.25-08.47.22:406][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_SelectUnit" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset" SILENT=true
+[2017.03.25-08.47.22:450][640]LogSavePackage: Save=30.14ms
+[2017.03.25-08.47.22:450][640]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_SelectUnitEFE2CC534E4DC77072E43384B63A27E9.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset'
+[2017.03.25-08.47.22:451][640]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_SelectUnit.uasset
+[2017.03.25-08.47.33:417][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/W_UnitState" FILE="D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_UnitState.uasset" SILENT=true
+[2017.03.25-08.47.33:443][434]LogSavePackage: Save=11.72ms
+[2017.03.25-08.47.33:443][434]LogSavePackage: Moving 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/W_UnitState131D2C384DF48300A67E93AF354D7784.tmp' to 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_UnitState.uasset'
+[2017.03.25-08.47.33:444][434]LogSavePackage:Display: Finished SavePackage D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Widget/W_UnitState.uasset
+[2017.03.25-08.52.10:415][396]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{455ccecc-9596-43ef-bc6b-90ad4801f558} was removed. Shutting down audio device.
+[2017.03.25-09.47.39:259][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:325][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:382][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:439][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:498][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:571][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:629][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:690][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-09.47.39:981][684]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.03.25-09.47.40:186][685]Cmd: QUIT_EDITOR
+[2017.03.25-09.47.40:251][685]LogExit: Preparing to exit.
+[2017.03.25-09.47.40:970][685]LogExit: Editor shut down
+[2017.03.25-09.47.40:971][685]LogExit: Transaction tracking system shut down
+[2017.03.25-09.47.41:083][685]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.25-09.47.41:083][685]LogExit: Object subsystem successfully closed.
+[2017.03.25-09.47.41:099][685]LogD3D11RHI: Shutdown
+[2017.03.25-09.47.41:099][685]LogD3D11RHI: CleanupD3DDevice
+[2017.03.25-09.47.41:204][685]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (508)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module DataTableEditor (504)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.03.25-09.47.41:218][685]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.03.25-09.47.41:218][685]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.25-09.47.41:219][685]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.03.25-09.47.41:219][685]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.03.25-09.47.41:219][685]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.03.25-09.47.41:219][685]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Collections/' was aborted.
+[2017.03.25-09.47.41:220][685]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/Developers/thtjd/Collections/' was aborted.
+[2017.03.25-09.47.41:220][685]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/PrototypingBackupp/nonamed/Saved/Collections/' was aborted.
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.03.25-09.47.41:220][685]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.03.25-09.47.41:747][685]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.03.25-09.47.41:748][685]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.03.25-09.47.41:789][685]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.03.25-09.47.41:797][685]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.03.25-09.47.41:936][685]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.03.25-09.47.41:937][685]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.03.25-09.47.41:937][685]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.03.25-09.47.41:937][685]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.03.25-09.47.41:938][685]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.03.25-09.47.41:938][685]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.03.25-09.47.41:938][685]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.03.25-09.47.41:938][685]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.03.25-09.47.41:938][685]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.03.25-09.47.42:039][685]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.03.25-09.47.42:140][685]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.03.25-09.47.42:141][685]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.03.25-09.47.42:141][685]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.03.25-09.47.42:141][685]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.03.25-09.47.42:141][685]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.03.25-09.47.42:141][685]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.03.25-09.47.42:141][685]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.03.25-09.47.42:143][685]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.03.25-09.47.42:143][685]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.03.25-09.47.42:143][685]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.03.25-09.47.42:143][685]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.03.25-09.47.42:143][685]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.03.25-09.47.42:143][685]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.03.25-09.47.42:212][685]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.25-09.47.42:212][685]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/PrototypingBackupp/nonamed/Content/' was aborted.
+[2017.03.25-09.47.42:212][685]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.25-09.47.42:212][685]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.03.25-09.47.42:212][685]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.03.25-09.47.42:212][685]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.03.25-09.47.42:212][685]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.03.25-09.47.42:212][685]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.03.25-09.47.42:213][685]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.03.25-09.47.42:213][685]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.03.25-09.47.42:213][685]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.03.25-09.47.42:213][685]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.03.25-09.47.42:259][685]LogDerivedDataCache: Shutdown
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.03.25-09.47.42:259][685]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.03.25-09.47.42:260][685]LogHMD: Oculus shutdown.
+[2017.03.25-09.47.42:260][685]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.03.25-09.47.42:260][685]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.25-09.47.42:260][685]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.25-09.47.42:260][685]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.25-09.47.42:260][685]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.25-09.47.42:260][685]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.25-09.47.42:260][685]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.25-09.47.42:260][685]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.03.25-09.47.42:260][685]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4F63ADD6-4B46-A2EA-E115-6C9E90B59647%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=e676a11046bff81e7c020db26fb775a3%7C4567b9b9a7b64e6ea7261bdbeb346d2b%7Cc0aaa3d9-c42f-4e06-a30c-667eede2d1a5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.25-09.47.42:260][685]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4F63ADD6-4B46-A2EA-E115-6C9E90B59647%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=e676a11046bff81e7c020db26fb775a3%7C4567b9b9a7b64e6ea7261bdbeb346d2b%7Cc0aaa3d9-c42f-4e06-a30c-667eede2d1a5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.25-09.47.42:260][685]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.25-09.47.42:793][685]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.25-09.47.42:794][685]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.25-09.47.42:794][685]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.25-09.47.42:795][685]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.25-09.47.42:795][685]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.25-09.47.42:795][685]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.25-09.47.42:798][685]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.25-09.47.42:801][685]LogExit: Exiting.
+[2017.03.25-09.47.42:818][685]Log file closed, 03/25/17 18:47:42
